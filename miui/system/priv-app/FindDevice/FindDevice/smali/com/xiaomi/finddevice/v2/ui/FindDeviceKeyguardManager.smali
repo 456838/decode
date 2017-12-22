@@ -506,7 +506,7 @@
     :try_start_0
     iget-boolean v0, p0, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->mLocked:Z
 
-    if-eqz v0, :cond_0
+    if-nez v0, :cond_0
 
     .line 73
     const/4 v0, 0x1

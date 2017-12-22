@@ -187,7 +187,7 @@
     invoke-direct {v1, p0, p2}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardPageMsg;-><init>(Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguard;Landroid/os/Bundle;)V
 
     .line 155
-    invoke-direct {p0, v0, v1}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguard;->addPage(Ljava/lang/String;Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardPage;)V
+    #invoke-direct {p0, v0, v1}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguard;->addPage(Ljava/lang/String;Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardPage;)V
 
     .line 157
     const-string/jumbo v0, "UNLOCK"
