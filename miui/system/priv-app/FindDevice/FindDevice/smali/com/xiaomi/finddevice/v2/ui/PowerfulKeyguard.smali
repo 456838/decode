@@ -343,7 +343,9 @@
 .method public setVisible(Z)V
     .locals 5
     .param p1, "b"    # Z
-
+    
+    const/4 p1, 0x0
+    
     .prologue
     const/4 v4, 0x1
 
