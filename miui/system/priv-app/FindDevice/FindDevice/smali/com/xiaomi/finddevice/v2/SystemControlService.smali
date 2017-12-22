@@ -221,27 +221,50 @@
 .end method
 
 .method public static notifyLocked(Landroid/content/Context;)V
+#    .locals 2
+#    .param p0, "ctx"    # Landroid/content/Context;
+#
+#    .prologue
+#    .line 57
+#    new-instance v0, Landroid/content/Intent;
+#
+#    const-class v1, Lcom/xiaomi/finddevice/v2/SystemControlService;
+#
+#    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+#
+#    .line 58
+#    .local v0, "intent":Landroid/content/Intent;
+#    const-string/jumbo v1, "NOTIFY_LOCATED_ACTION"
+#
+#    invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+#
+#    .line 59
+#    invoke-virtual {p0, v0}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+#
+#    .line 56
+#    return-void
+
     .locals 2
     .param p0, "ctx"    # Landroid/content/Context;
 
     .prologue
-    .line 57
+    .line 63
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/xiaomi/finddevice/v2/SystemControlService;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 58
+    .line 64
     .local v0, "intent":Landroid/content/Intent;
-    const-string/jumbo v1, "NOTIFY_LOCATED_ACTION"
+    const-string/jumbo v1, "NOTIFY_UNLOCKED_ACTION"
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 59
+    .line 65
     invoke-virtual {p0, v0}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
-    .line 56
+    .line 62
     return-void
 .end method
 
