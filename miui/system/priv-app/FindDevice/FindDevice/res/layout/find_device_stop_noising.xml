@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingLeft="@dimen/dialog_horizontal_padding" android:paddingTop="@dimen/dialog_vertical_padding" android:paddingRight="@dimen/dialog_horizontal_padding" android:paddingBottom="@dimen/dialog_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:textStyle="bold" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_device_noise_title" />
+    </LinearLayout>
+    <Button android:id="@id/stop_noising_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_device_stop_noise" android:layout_below="@id/content" style="?android:attr/buttonBarButtonStyle" />
+</RelativeLayout>

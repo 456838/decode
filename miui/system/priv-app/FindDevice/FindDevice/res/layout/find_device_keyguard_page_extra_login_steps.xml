@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/title_group" android:background="@color/activity_titile_color" android:layout_width="fill_parent" android:layout_height="@dimen/activity_title_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/activity_titile_text_size" android:textColor="@color/activity_titile_text_color" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/login_extra_steps" />
+        <ImageView android:layout_gravity="center|left" android:id="@id/back" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/passport_action_bar_back_light" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_group">
+        <TextView android:textAppearance="@miui:style/TextAppearance.Medium" android:gravity="left" android:id="@id/status_view" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" />
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

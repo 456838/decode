@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: FindDevice.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '25'
+  targetSdkVersion: '25'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  - 16
+  tag: null
+version: 2.2.2
+versionInfo:
+  versionCode: '25'
+  versionName: 7.1.1

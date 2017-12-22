@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingLeft="@dimen/dialog_horizontal_padding" android:paddingTop="@dimen/dialog_vertical_padding" android:paddingRight="@dimen/dialog_horizontal_padding" android:paddingBottom="@dimen/dialog_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:textStyle="bold" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_device_success_title" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_image_margin_top" android:layout_marginBottom="@dimen/dialog_image_margin_bottom" android:src="@drawable/find_device_success" android:contentDescription="@null" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:textColor="?android:textColorSecondary" android:gravity="center_horizontal" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button android:id="@id/i_know" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/i_know" android:layout_below="@id/content" style="?android:attr/buttonBarButtonStyle" />
+</RelativeLayout>

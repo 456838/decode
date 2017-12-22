@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.finddevice.v2.ui.PassportGroupEditText android:id="@id/et_vcode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:hint="@string/passport_vcode_prompt_long" android:singleLine="true" />
+    <CheckBox android:id="@id/passport_trust_device" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/passport_trust_device" />
+    <Button android:textColor="@color/text_color_white" android:id="@id/btn_verify" android:background="@drawable/passport_btn_bg_warn_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/passport_verify" />
+</LinearLayout>

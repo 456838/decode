@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ཁ་པར་འཚོལ་བ།</string>
+    <string name="find_device">ཁ་པར་འཚོལ་བ།</string>
+    <string name="enable_find_device_success">ཁ་པར་འཚོལ་བའི་ཁ་འབྱེད་ཐུབ་སོང་།</string>
+    <string name="disable_find_device_success">ཁ་པར་འཚོལ་བའི་ཁ་རྒྱག་ཐུབ་སོང་།</string>
+    <string name="enable_find_device_error">%1$sཁ་པར་འཚོལ་བའི་ཁ་འབྱེད་མ་ཐུབ།</string>
+    <string name="disable_find_device_error">%1$sཁ་པར་འཚོལ་བའི་ཁ་རྒྱག་མ་ཐུབ།</string>
+    <string name="find_device_error_access_denied">དབང་ཚད་མེད།</string>
+    <string name="find_device_error_unknown">ངོས་མ་ཟིན་པའི་རྒྱུ་རྐྱེན།（%s）</string>
+    <string name="find_device_error_password_changed">ཐོ་འགོད་མཁན་གྱི་གསང་ཨང་ཉེ་སྐབས་བཟོ་བཅོས་བྱས་མྱོང་།</string>
+    <string name="find_device_error_network">དྲ་རྒྱ་སྤྱད་མི་ཆོག</string>
+    <string name="find_device_error_server">ཞབས་ཞུ་འཕྲུལ་ཆས་ལ་ནོར་འཁྲུལ་བྱུང་།（%s）</string>
+    <string name="find_device_error_account_sys_timeout">ཞའོ་མཱི་ཐོ་འགོད་ཨང་གྲངས་ལ་དང་ལེན་མི་འདུག</string>
+    <string name="find_device_error_account_unknown_error">ཞའོ་མཱི་ཐོ་འགོད་ཨང་གྲངས་ལ་ནོར་འཁྲུལ་བྱུང་།（%s）</string>
+    <string name="find_device_storage_corrupted">ཁ་པར་གྱི་གསོག་ཉར་འཚོལ་བར་སྐྱོན་ཤོར་འདུག སྐུ་ཉིད་ཀྱི་ཁ་པར་བདེ་འཇགས་མིན་པའི་རྣམ་པར་གནས།</string>
+    <string name="time_correction_success">སྐུ་ཉིད་ལ་དུས་ཚོད་ཐོ་གཏུགས་ཟིན།</string>
+    <string name="time_correction_failure">དུས་ཚོད་ཐོ་གཏུགས་མ་ཐུབ།%s</string>
+    <string name="find_device_stop_noise">མཚམས་འཇོག</string>
+    <string name="find_device_noise_title">ཁ་པར་འཚོལ་བའི་རྩོལ་ནུས་ཀྱིས་སྒྲ་སྒྲོག་བཞིན་པ།</string>
+    <string name="find_device_success_title">ཁ་པར་འཚོལ་བའི་རྩོལ་ནུས་ཀྱི་ཁ་ཕྱེ་ཟིན།</string>
+    <string name="find_device_notice_p1">སྐུ་ཉིད་ཀྱི་ཁ་པར་བོར་བརླག་བྱུང་དུས། ཐོ་འགོད་བྱས་ཆོག</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
+    <string name="find_device_notice_p3">"ཕྱིར་རྙེད་པར་ཚོད་ལྟ་དང་ཁ་པར་སྒོ་ལྕགས་རྒྱག་པའམ་གཞི་གྲངས་སུབ་པ།
+ཁ་པར་གྱི་SIMཁཱ་བརྗེ་དུས། བརྒྱུད་ཁོངས་ཀྱིས་འཕྲིན་ཐུང་གཅིག་བསྐུར་ནས་ཁ་པར་འཚོལ་བའི་ཞུབས་ཞུར་ཡང་བསྐྱར་དེབ་འགོད་བྱ་སྲིད།"</string>
+    <string name="i_know">ངས་ཤེས་སོང་།</string>
+    <string name="unlock_error_network">མིག་སྔར་གྱི་དྲ་རྒྱ་སྤྱད་མི་ཆོག</string>
+    <string name="unlock_error_device_id">སྒྲིག་ཆས་ཨང་ཐོབ་ལེན་བྱེད་མ་ཐུབ།</string>
+    <string name="unlock_error_ssl_hand_shake">ཞབས་ཞུ་འཕྲུལ་ཆས་དང་སྦྲེལ་མཐུད་ནོར་འདུག ཁ་པར་གྱི་དུས་ཚོད་མིག་སྔར་གྱི་དུས་ཚོད་ལ་བཟོ་བཅོས་གནང་རོགས།</string>
+    <string name="unlock_bad_authentication">སྤྱོད་མཁན་མིང་དང་གསང་ཨང་ཆ་འགྲིག་མ་རེད།</string>
+    <string name="unlock_error_server">ཞབས་ཞུ་འཕྲུལ་ཆས་ལ་ནོར་འཁྲུལ་བྱུང་།</string>
+    <string name="unlock_access_denied">ནང་འཇུག་ཚད་བཀག་བྱས།</string>
+    <string name="unlock_wrong_captcha">པར་རིས་ར་སྤྲོད་ཨང་ནོར་འདུག</string>
+    <string name="unlock_error_unknown">ངོས་མ་ཟིན་པའི་སྐྱོན།</string>
+    <string name="unlock_error_user_name">སྤྱོད་མཁན་མིང་མི་འདུག</string>
+    <string name="unlock_error_interrupted">རྒྱུན་ལྡན་མིན་པར་ཆད་སོང་།</string>
+    <string name="unlock_error_rpc">RPCནོར་འཁྲུལ་རེད།</string>
+    <string name="unlock_error_abort">སྤྱོད་མཁན་རྩིས་མེད་དུ་གཏོང་བ།</string>
+    <string name="unlock_error_passport_sdk_timeout">ཞའོ་མཱི་ཐོ་འགོད་ཨང་གྲངསSDKལ་དང་ལེན་མི་འདུག</string>
+    <string name="activate_xiaomi_account">སྐུལ་སློང་སྒྲིག་ཆས།</string>
+    <string name="login_extra_steps">ཐོ་འགོད་ར་སྤྲོད།</string>
+    <string name="phone_locked">ཁ་པར་འདི་ཞའོ་མཱི་ཐོ་འགོད་ཨང་གྲངས（%s）ལ་འབྲེལ་འདུག ཐོ་འགོད་བྱས་ནས་སྒྲིག་ཆས་སྐུལ་སློང་གནང་རོགས།</string>
+    <string name="phone_locked_account_email">，གློག་རྡུལ་ཡིག་སྒམ་མཐུད་སྦྲེལ།：%s</string>
+    <string name="phone_locked_account_phone">，ཁ་པར་ཨང་གྲངས་མཐུད་སྦྲེལ།：%s</string>
+    <string name="password">གསང་ཨང་།</string>
+    <string name="captcha">པར་རིས་ར་སྤྲོད་ཨང་།</string>
+    <string name="stop_on_empty_password">གསང་ཨང་སྟོང་བར་བསྐྱུར་མི་རུང་།</string>
+    <string name="stop_on_empty_captcha">པར་རིས་ར་སྤྲོད་ཨང་སྟོང་བར་བསྐྱུར་མི་རུང་།</string>
+    <string name="verifing_account">གསང་ཨང་ར་སྤྲོད་བྱེད་བཞིན་པ།...</string>
+    <string name="doing_extra_login_steps">ཐོ་འགོད་ར་སྤྲོད་བྱེད་པ།...</string>
+    <string name="adding_or_updating_account">ཐོ་འགོད་ཨང་གྲངས་གསར་སྒྱུར་བྱེད་བཞིན་པ།...</string>
+    <string name="unlocking">སྐུལ་སློང་བྱེད་བཞིན་པ།</string>
+    <string name="unlock">ཁ་པར་སྐུལ་སློང་།</string>
+    <string name="verify_password_failed">ཐོ་འགོད་མཁན་ཞུ་དག་ཞིབ་བཤེར་ཕམ་ཉེས་བྱུང་།（%s）</string>
+    <string name="login_failed">ཐོ་འགོད་མཁན་དུ་འཇུག་མ་ཐུབ།（%s）</string>
+    <string name="change_find_device_status_failed">སྒྲིག་ཆས་ཀྱི་སྒོ་ལྕགས་འགྲོལ་མ་ཐུབ།（%s）</string>
+    <string name="unlock_help_title">སྒོ་ལྕགས་འགནང་རོགས་རམ།</string>
+    <string name="unlock_help">"ནུས་ལྡན་གྱི་དྲ་སྦྲེལ་རྒྱུན་སྐྱོང་བྱོས།
+རྒྱུད་ལྡན་གྱིས་འཇུག་ཆོག་པའིSIMཁཱ་གཅིག་བར་འཇུག་ཁག་ཐེག་བྱས་ནས་ནུས་མེད་ཀྱི་WLANདྲ་སྦྲེལ་དང་རྒྱང་ཐག་རིང་བར་གནང་རོགས།
+
+གསང་ཨང་བརྗེད་སོང་ངམ། 
+གསང་ཨང་བརྗེད་སོང་ནid.mi.comཞུགས་ནས་གསང་ཨང་ཕྱིར་འཚོལ་བར་ཚོད་ལྟ་གནང་རོགས།
+
+རྒྱུ་རྐྱེན་གཞན་གྱིས་སྒོ་ལྕགས་འབྱེད་མི་ཐུབ་ན།
+i.mi.comལ་ཐོ་འགོད་བྱས་ནས་དྲ་གནས་ཀྱི་སྟེང་ནས་ཁ་པར་གྱི་སྒོ་ལྕགས་འབྱེད་པར་ཚོད་ལྟ་གནང་རོགས།"</string>
+    <string name="passport_vcode_prompt_long">ཞའོ་མཱི་བདེ་འཇགས་བཀའ་བྱང་ལས་གྲུབ་པའི་ར་སྤྲོད་ཨང་།</string>
+    <string name="passport_trust_device">ངས་སྒྲིག་ཆས་འདིར་ཡིད་ཆེས་བྱེད།</string>
+    <string name="passport_verify">ར་སྤྲོད།</string>
+    <string name="passport_error_empty_vcode">ར་སྤྲོད་ཨང་སྟོང་བར་བསྐྱུར་མི་རུང་།</string>
+    <string name="passport_checking_vcode">ར་སྤྲོད་བྱེད་བཞིན་པ།...</string>
+    <string name="unlock_error_wrong_vcode">ར་སྤྲོད་ཨང་ནོར་འདུག</string>
+    <string name="passport_notification_processing">སྒྲིག་གཅོད་བྱེད་བཞིན་པ།...</string>
+    <string name="passport_notification_need_unlock_again">ཡང་བསྐྱར་སྒོ་ལྕགས་ཕྱེ་བར་ཚོད་ལྟ་གནང་རོགས།</string>
+    <string name="device_lost">སྒྲིག་ཆས་འདི་བོར་ཟིན།</string>
+    <string name="device_locked">སྒྲིག་ཆས་འདི་སྒོ་ལྕགས་བརྒྱབ་ཟིན།</string>
+    <string name="default_lock_msg_words_with_phone">ཁ་པར་རྙེད་མཁན་གྱི་མི་སེམས་བཟང་ཅན་གྱིས་ཁ་པར་གྱི་བདག་པོར་འབྲེལ་གཏུག་གནང་རོགས།</string>
+    <string name="default_lock_msg_words">སྒྲིག་ཆས་འདི་ཞའོ་མཱི་ཐོ་འགོད་ཨང་གྲངས་ལ་འབྲེལ་འདུག སྒྲིག་ཆས་ཀྱི་བདེ་འཇགས་སྲུང་སྐྱོབ་བྱེད་ཆེད། ཐོ་འགོད་གསང་ཨང་ནང་འཇུག་བྱས་ནས་སྒྲིག་ཆས་སྐུལ་སློང་བྱས་ན། ད་གཟོད་མུ་མཐུད་དུ་བཀོལ་སྤྱོད་བྱེད་ཐུབ།</string>
+    <string name="lock_msg_phone">%sལ་འབྲེལ་གཏུག་གནང་རོགས།</string>
+    <string name="default_debt_msg_words">"ཁྱེད་ནི་དུས་ཐོག་ཏུ་དུས་བགོའི་སྒོར་མོ་སྤྲད་མེད་པས། ཁ་པར་སྒོ་ལྕགས་བརྒྱབ་ཟིན་
+ཁྱེད་ཀྱི་དུས་བགོས་ཁ་པར་གཉེར་སྐྱོང་ཚོང་པར་འབྲེལ་བ་གནང་རོགས།"</string>
+    <string name="sys_notification_async_verify_title">ཁ་པར་བཤེར་འཚོལ་བྱེད་ནུས་ཡང་བསྐྱར་སྒུལ་སློང་གནང་རོགས།</string>
+    <string name="sys_notification_async_verify_content">བདེ་འཇགས་ཐབས་ཇུས་རིམ་སྤར་བྱས་རྐྱེན། ཁ་པར་འཚོལ་བྱེད་ནུས་ཡང་བསྐྱར་སྒུལ་སློང་བྱེད་དགོས།</string>
+    <string name="sys_notification_async_open_failed_title">ཁ་པར་བཤེར་འཚོལ་ཁ་འབྱེད་མི་ཐུབ།</string>
+    <string name="sys_notification_async_open_failed_content">ཡང་ལྟའམ་རྩིས་མེད་རེག་པ།</string>
+</resources>

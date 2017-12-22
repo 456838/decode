@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.finddevice" package="com.xiaomi.finddevice" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <permission android:name="miui.cloud.finddevice.AccessFindDevice" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.cloud.finddevice.ManageFindDevice" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.cloud.finddevice.ControlKeyguard" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.cloud.finddevice.Notification" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.cloud.finddevice.SysNotification" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.cloud.finddevice.RECEIVE_COMMAND" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.cloud.finddevice.SEND_COMMAND" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.xiaomi.finddevice.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.xiaomi.permission.fdpp" android:protectionLevel="signature"/>
+    <permission android:name="com.xiaomi.permission.ACCESS_SECURITY_DEVICE_CREDENTIAL" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.SET_TIME"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.MANAGE_USB"/>
+    <uses-permission android:name="android.permission.MANAGE_NOTIFICATIONS"/>
+    <uses-permission android:name="com.xiaomi.permission.CLOUD_MANAGER"/>
+    <uses-permission android:name="android.miui.permission.SHELL"/>
+    <uses-permission android:name="com.xiaomi.permission.MT"/>
+    <uses-permission android:name="com.xiaomi.permission.fdpp"/>
+    <uses-permission android:name="com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="miui.cloud.finddevice.AccessFindDevice"/>
+    <uses-permission android:name="miui.cloud.finddevice.ManageFindDevice"/>
+    <uses-permission android:name="miui.cloud.finddevice.ControlKeyguard"/>
+    <uses-permission android:name="miui.cloud.finddevice.Notification"/>
+    <uses-permission android:name="miui.cloud.finddevice.SysNotification"/>
+    <uses-permission android:name="miui.cloud.finddevice.SEND_COMMAND"/>
+    <uses-permission android:name="miui.cloud.finddevice.RECEIVE_COMMAND"/>
+    <uses-permission android:name="com.xiaomi.account.permission.GUARD_LOGIN"/>
+    <uses-permission android:name="com.xiaomi.account.permission.REMOVE_ACCOUNT_AUTHENTICATOR"/>
+    <uses-permission android:name="com.xiaomi.finddevice.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="com.xiaomi.permission.TOGGLE_FIND_DEVICE"/>
+    <application android:allowBackup="false" android:allowClearUserData="false" android:icon="@drawable/application" android:label="@string/app_name" android:name=".Application" android:persistent="true" android:theme="@miui:style/Theme.Light.ActionBar.NoTitle">
+        <uses-library android:name="cloud-common.jar"/>
+        <uses-library android:name="miui-push.jar"/>
+        <uses-library android:name="security-device-credential-sdk.jar"/>
+        <receiver android:name=".v2.receiver.ProvisionCompleteReceiver" android:permission="android.provision.permission.SEND_PROVISION_COMPLETE_BROADCAST">
+            <intent-filter>
+                <action android:name="android.provision.action.PROVISION_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".v2.receiver.AccountPostChangeReceiver" android:permission="com.xiaomi.account.permission.SEND_ACCOUNT_POST_CHANGE_BROADCAST">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_POST_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name=".v2.receiver.AlarmReceiver"/>
+        <receiver android:name=".v2.receiver.TelephonyServiceStateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SERVICE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".v2.receiver.TimeChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".v2.receiver.XSIMStateNotificationReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.X_SIM_INSERTED"/>
+                <action android:name="com.xiaomi.X_SIM_REMOVED"/>
+                <action android:name="com.xiaomi.X_SIM_NEW_CLOUDID"/>
+                <action android:name="com.xiaomi.X_SIM_CLOUDID_CHANGED"/>
+                <action android:name="com.xiaomi.X_SIM_SIMID_READY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaomi.accountsdk.activate.ActivateStatusReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.action.ACTIVATE_STATUS_CHANGED"/>
+                <action android:name="com.xiaomi.action.MICLOUD_SIM_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name=".v2.FindDeviceStatusManagerService" android:permission="miui.cloud.finddevice.AccessFindDevice" android:singleUser="true"/>
+        <service android:exported="true" android:name=".v2.FindDeviceAsyncControlService" android:permission="miui.cloud.finddevice.ManageFindDevice" android:singleUser="true"/>
+        <provider android:authorities="com.xiaomi.finddevice.provider" android:exported="true" android:name=".v2.FindDeviceStatusManagerProvider" android:permission="miui.cloud.finddevice.AccessFindDevice" android:singleUser="true"/>
+        <receiver android:exported="false" android:name=".v2.update.PeriodicUpdateTaskReceiver"/>
+        <service android:exported="true" android:name=".v2.ui.FindDeviceKeyguardControlReceiver" android:permission="miui.cloud.finddevice.ControlKeyguard" android:singleUser="true">
+            <intent-filter>
+                <action android:name="miui.cloud.finddevice.keyguard.LOCK"/>
+                <action android:name="miui.cloud.finddevice.keyguard.UNLOCK"/>
+                <action android:name="miui.cloud.finddevice.keyguard.SET_BACKOFF"/>
+                <action android:name="miui.cloud.finddevice.keygurad.NOTIFY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name=".v2.ui.FindDeviceNotificationReceiver" android:permission="miui.cloud.finddevice.Notification" android:process=":normal" android:singleUser="true">
+            <intent-filter>
+                <action android:name="miui.cloud.finddevice.notification.OPEN_SUCCESS"/>
+                <action android:name="miui.cloud.finddevice.notification.CLOSE_SUCCESS"/>
+                <action android:name="miui.cloud.finddevice.notification.OPEN_FAILURE"/>
+                <action android:name="miui.cloud.finddevice.notification.CLOSE_FAILURE"/>
+                <action android:name="miui.cloud.finddevice.notification.CRASH"/>
+                <action android:name="miui.cloud.finddevice.notification.STORAGE_CORRUPTED"/>
+                <action android:name="miui.cloud.finddevice.notification.TIME_CORRECTION_SUCCESS"/>
+                <action android:name="miui.cloud.finddevice.notification.TIME_CORRECTION_FAILURE"/>
+                <action android:name="miui.cloud.finddevice.notification.TELEPHONY_FAULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name=".v2.ui.FindDeviceSysNotificationReceiver" android:permission="miui.cloud.finddevice.SysNotification"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name=".v2.ui.FindDeviceSuccessActivity" android:process=":normal" android:screenOrientation="portrait" android:taskAffinity="com.miui.cloudservice.ui.FindDeviceSuccessActivity" android:theme="@miui:style/Theme.Light.Dialog"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name=".v2.command.StopNoiseActivity" android:theme="@miui:style/Theme.Light.Dialog"/>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <receiver android:exported="true" android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name=".v2.push.PushMessageReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name=".v2.command.CommandReceiver" android:permission="miui.cloud.finddevice.SEND_COMMAND"/>
+        <service android:exported="false" android:name=".v2.command.CommandService"/>
+        <service android:exported="false" android:name=".v2.command.NoiseService"/>
+        <service android:exported="false" android:name=".v2.SystemControlService"/>
+        <service android:exported="false" android:name=".v2.time.TimeCorrectionReceiver"/>
+        <service android:exported="false" android:name=".test.PersistentAppTaskManagerTestService" android:singleUser="true"/>
+    </application>
+</manifest>
