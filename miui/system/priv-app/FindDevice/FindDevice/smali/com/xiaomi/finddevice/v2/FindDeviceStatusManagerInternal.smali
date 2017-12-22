@@ -482,11 +482,13 @@
 
     .line 1079
     :cond_0
-    invoke-interface {p0}, Lcom/xiaomi/finddevice/v2/FindDeviceStatus;->isLocked()Z
+    #invoke-interface {p0}, Lcom/xiaomi/finddevice/v2/FindDeviceStatus;->isLocked()Z
 
-    move-result v0
-
-    return v0
+    #move-result v0
+    
+    const/4 v0, 0x0
+    
+	return v0
 .end method
 
 .method private static isLostStatus(Lcom/xiaomi/finddevice/v2/FindDeviceStatus;)Z
@@ -504,10 +506,11 @@
 
     .line 1086
     :cond_0
-    invoke-interface {p0}, Lcom/xiaomi/finddevice/v2/FindDeviceStatus;->isLost()Z
+    #invoke-interface {p0}, Lcom/xiaomi/finddevice/v2/FindDeviceStatus;->isLost()Z
 
-    move-result v0
-
+    #move-result v0
+    
+    const/4 v0, 0x0
     return v0
 .end method
 
@@ -604,7 +607,7 @@
     move-result-object v0
 
     .line 1120
-    invoke-static {p0, v0}, Lmiui/cloud/finddevice/FindDeviceNotification;->notifyUserOpenFailure(Landroid/content/Context;Ljava/lang/String;)V
+     invoke-static {p0}, Lmiui/cloud/finddevice/FindDeviceNotification;->notifyUserCloseSuccess(Landroid/content/Context;)V
 
     .line 1119
     return-void

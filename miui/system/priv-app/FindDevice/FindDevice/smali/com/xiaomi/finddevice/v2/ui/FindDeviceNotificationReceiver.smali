@@ -88,72 +88,129 @@
 
 .method public notifyUserCrash()V
     .locals 3
-
-    .prologue
-    .line 104
-    invoke-virtual {p0}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    .line 105
-    const v1, 0x7f07000d
-
-    invoke-virtual {p0, v1}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->getString(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 106
-    const/4 v2, 0x1
-
-    .line 104
-    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
-
-    .line 103
+#
+#    .prologue
+#    .line 104
+#    invoke-virtual {p0}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->getApplicationContext()Landroid/content/Context;
+#
+#    move-result-object v0
+#
+#    .line 105
+#    const v1, 0x7f07000d
+#
+#    invoke-virtual {p0, v1}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->getString(I)Ljava/lang/String;
+#
+#    move-result-object v1
+#
+#    .line 106
+#    const/4 v2, 0x1
+#
+#    .line 104
+#    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+#
+#    move-result-object v0
+#
+#    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+#
+#    .line 103
     return-void
 .end method
 
 .method public notifyUserOpenFailure(Ljava/lang/String;)V
+#    .locals 5
+#    .param p1, "cause"    # Ljava/lang/String;
+#
+#    .prologue
+#    const/4 v4, 0x1
+#
+#    .line 86
+#    invoke-virtual {p0}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->getApplicationContext()Landroid/content/Context;
+#
+#    move-result-object v0
+#
+#    .line 87
+#    const v1, 0x7f070004
+#
+#    invoke-virtual {p0, v1}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->getString(I)Ljava/lang/String;
+#
+#    move-result-object v1
+#
+#    new-array v2, v4, [Ljava/lang/Object;
+#
+#    const/4 v3, 0x0
+#
+#    aput-object p1, v2, v3
+#
+#    invoke-static {v1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+#
+#    move-result-object v1
+#
+#    .line 86
+#    invoke-static {v0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+#
+#    move-result-object v0
+#
+#    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+#
+#    .line 85
+#    return-void
+
     .locals 5
-    .param p1, "cause"    # Ljava/lang/String;
 
     .prologue
-    const/4 v4, 0x1
+    .line 71
+    new-instance v1, Landroid/content/Intent;
 
-    .line 86
-    invoke-virtual {p0}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->getApplicationContext()Landroid/content/Context;
+    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    move-result-object v0
+    .line 72
+    .local v1, "intent":Landroid/content/Intent;
+    new-instance v2, Landroid/content/ComponentName;
 
-    .line 87
-    const v1, 0x7f070004
+    .line 73
+    const-string/jumbo v3, "com.xiaomi.finddevice"
 
-    invoke-virtual {p0, v1}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->getString(I)Ljava/lang/String;
+    .line 74
+    const-string/jumbo v4, "com.xiaomi.finddevice.v2.ui.FindDeviceSuccessActivity"
 
-    move-result-object v1
+    .line 72
+    invoke-direct {v2, v3, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    new-array v2, v4, [Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+
+    .line 75
+    const/high16 v2, 0x10000000
+
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+
+    .line 78
+    :try_start_0
+    invoke-virtual {p0, v1}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceNotificationReceiver;->startActivity(Landroid/content/Intent;)V
+    :try_end_0
+    .catch Landroid/util/AndroidRuntimeException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 70
+    :goto_0
+    return-void
+
+    .line 79
+    :catch_0
+    move-exception v0
+
+    .line 81
+    .local v0, "e":Landroid/util/AndroidRuntimeException;
+    const/4 v2, 0x1
+
+    new-array v2, v2, [Ljava/lang/Object;
 
     const/4 v3, 0x0
 
-    aput-object p1, v2, v3
+    aput-object v0, v2, v3
 
-    invoke-static {v1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v2}, Lmiui/cloud/common/XLogger;->log([Ljava/lang/Object;)V
 
-    move-result-object v1
+    goto :goto_0
 
-    .line 86
-    invoke-static {v0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
-
-    .line 85
-    return-void
 .end method
 
 .method public notifyUserOpenSuccess()V

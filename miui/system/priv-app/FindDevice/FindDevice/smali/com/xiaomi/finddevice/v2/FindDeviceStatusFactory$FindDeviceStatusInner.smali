@@ -1707,10 +1707,12 @@
     .line 386
     iget-object v0, p0, Lcom/xiaomi/finddevice/v2/FindDeviceStatusFactory$FindDeviceStatusInner;->status:Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;
 
-    invoke-static {v0}, Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;->isLockStatus(Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;)Z
+    #invoke-static {v0}, Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;->isLockStatus(Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;)Z
 
-    move-result v0
-
+    #move-result v0
+    
+    const/4 v0, 0x0
+    
     return v0
 .end method
 
@@ -1721,11 +1723,13 @@
     .line 391
     iget-object v0, p0, Lcom/xiaomi/finddevice/v2/FindDeviceStatusFactory$FindDeviceStatusInner;->status:Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;
 
-    invoke-static {v0}, Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;->isLostStatus(Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;)Z
+    #invoke-static {v0}, Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;->isLostStatus(Lcom/xiaomi/finddevice/v2/FindDeviceStatus$Status;)Z
 
-    move-result v0
-
-    return v0
+    #move-result v0
+	
+	const/4 v0, 0x0
+    
+	return v0
 .end method
 
 .method public isOpen()Z

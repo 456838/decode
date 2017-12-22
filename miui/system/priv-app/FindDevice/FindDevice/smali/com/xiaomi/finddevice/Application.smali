@@ -226,54 +226,56 @@
     .line 147
     const-string/jumbo v0, "started"
 
-    .line 148
-    const-string/jumbo v1, "com.xiaomi.finddevice.proc_started"
-
-    invoke-static {v1}, Lcom/xiaomi/finddevice/common/PriviledgedProc;->getRebootClearVariable(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 147
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    .line 149
-    new-array v0, v3, [Ljava/lang/Object;
-
-    const-string/jumbo v1, "Normal startup. "
-
-    aput-object v1, v0, v2
-
-    invoke-static {v0}, Lmiui/cloud/common/XLogger;->log([Ljava/lang/Object;)V
-
-    .line 150
-    const-string/jumbo v0, "com.xiaomi.finddevice.proc_started"
-
-    const-string/jumbo v1, "started"
-
-    invoke-static {v0, v1}, Lcom/xiaomi/finddevice/common/PriviledgedProc;->setRebootClearVariable(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 146
-    :goto_0
-    return-void
-
-    .line 152
-    :cond_0
-    new-array v0, v3, [Ljava/lang/Object;
-
-    const-string/jumbo v1, "Crashed and restarted. "
-
-    aput-object v1, v0, v2
-
-    invoke-static {v0}, Lmiui/cloud/common/XLogger;->log([Ljava/lang/Object;)V
-
-    .line 153
-    invoke-static {p0}, Lmiui/cloud/finddevice/FindDeviceNotification;->notifyUserCrash(Landroid/content/Context;)V
-
-    goto :goto_0
+#    .line 148
+#    const-string/jumbo v1, "com.xiaomi.finddevice.proc_started"
+#
+#    invoke-static {v1}, Lcom/xiaomi/finddevice/common/PriviledgedProc;->getRebootClearVariable(Ljava/lang/String;)Ljava/lang/String;
+#
+#    move-result-object v1
+#
+#    .line 147
+#    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#    move-result v0
+#
+#    if-nez v0, :cond_0
+#
+#    .line 149
+#    new-array v0, v3, [Ljava/lang/Object;
+#
+#    const-string/jumbo v1, "Normal startup. "
+#
+#    aput-object v1, v0, v2
+#
+#    invoke-static {v0}, Lmiui/cloud/common/XLogger;->log([Ljava/lang/Object;)V
+#
+#    .line 150
+#    const-string/jumbo v0, "com.xiaomi.finddevice.proc_started"
+#
+#    const-string/jumbo v1, "started"
+#
+#    invoke-static {v0, v1}, Lcom/xiaomi/finddevice/common/PriviledgedProc;->setRebootClearVariable(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#    .line 146
+#    :goto_0
+#    return-void
+#
+#    .line 152
+#    :cond_0
+#    new-array v0, v3, [Ljava/lang/Object;
+#
+#    const-string/jumbo v1, "Crashed and restarted. "
+#
+#    aput-object v1, v0, v2
+#
+#    invoke-static {v0}, Lmiui/cloud/common/XLogger;->log([Ljava/lang/Object;)V
+#
+#    .line 153
+#    invoke-static {p0}, Lmiui/cloud/finddevice/FindDeviceNotification;->notifyUserCrash(Landroid/content/Context;)V
+#
+#    goto :goto_0
+	
+	return-void
 .end method
 
 .method private publishServices()V
