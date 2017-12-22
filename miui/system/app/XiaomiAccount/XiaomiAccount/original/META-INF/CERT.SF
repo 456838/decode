@@ -1,0 +1,925 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA-256-Digest-Manifest: 5RQvDARlxtwdVz4TzprQldsqtCFnV0nTrerVUHTD9IY=
+Created-By: 1.0 (Android SignApk)
+
+Name: res/drawable/passport_progressbar_indeterminate_light.xml
+SHA-256-Digest: Wx3BY5c/rqfAZdVGxgxzXYUN3u83Vh0fBQNEbmx2rO8=
+
+Name: res/drawable-xxhdpi-v4/passport_arrow_right_disable.png
+SHA-256-Digest: 6Sazpnfet+cGPZ4OPbOLfAldcH/NqxE/9/v3/AhFF7w=
+
+Name: res/layout/passport_miui_provision_phone_ticket_reg.xml
+SHA-256-Digest: Bxd9EoHb+llWaUV14PCo5rQg4uxwDS1t3xnAlArQI54=
+
+Name: res/drawable-xxhdpi-v4/mail_icon.png
+SHA-256-Digest: E5rQuec6TIpJMaEm7KI3Zi6ktNYS4LQp65oNRWT0Eak=
+
+Name: res/layout/passport_getting_activator_phone.xml
+SHA-256-Digest: Zhfr9Qe0/NT7p5i4om1HxmJZarJurpIwHjVrJYs/geY=
+
+Name: res/drawable-xxhdpi-v4/passport_dialog_bg_light.9.png
+SHA-256-Digest: B3q4MMi8lQRA6mNDKoemV6dJhPFSTG+ZmgvuCErKP+M=
+
+Name: res/color/passport_list_secondary_text_light.xml
+SHA-256-Digest: lFERQaEQa83nZnzWPjZXaLI9IkCDe2gtTX7kJ78+gaY=
+
+Name: res/layout/update_binded_phone_dialog.xml
+SHA-256-Digest: CX2JSO08axmkWKlEPKpq5KE9muUIuu2OZ8AVkweLTIs=
+
+Name: res/drawable-xxhdpi-v4/passport_miui_provision_sim_dual.png
+SHA-256-Digest: 3zHuoiZuhWnjoA9yGwVD/xg0xCoQLMvRP9YFUnyQelE=
+
+Name: res/xml/miui_manifest.xml
+SHA-256-Digest: gM+deKXdkFxVJM+tteKS3GrevF0sx3IUmA2eLg6r+14=
+
+Name: res/layout/passport_activator_phone_register.xml
+SHA-256-Digest: Qd/ivgrQCTDvCd59TH2bJW6DOD+tdZZ3QDaeM3ye+qo=
+
+Name: res/layout/passport_miui_provision_activator_phones_layout.xml
+SHA-256-Digest: hui0Ja8IuXUaXqI7Vuzf3FLEM3gt7Fr9BFymE1zG3QQ=
+
+Name: res/drawable-xxhdpi-v4/passport_group_last_item_normal_bg.9.png
+SHA-256-Digest: Ir0O8iG9jVGJbp7ODOl903k5/HDwqr1vv5HFHqfrq4k=
+
+Name: res/layout/input_bind_phone_address.xml
+SHA-256-Digest: yVnHpCcehyG/GiZxOLW9TcNuPbvHN7kBkgL8AWUBsWw=
+
+Name: res/layout/passport_account_title.xml
+SHA-256-Digest: xv4rjLBP8ymYF3S20VytPxr2WgYHo3SoljjoXDVnBfo=
+
+Name: res/xml/guest_account_sync_adapter.xml
+SHA-256-Digest: v71jmKUHw2uNOWpQm32dn9URGBtVwZ5coJlPxB9ziWI=
+
+Name: res/xml/other_device_preference.xml
+SHA-256-Digest: jE2cOvVz2Cwr8Mjj+hVQTGkBC52DlAIL/EQnMjeGEOw=
+
+Name: res/xml/account_protection_detail.xml
+SHA-256-Digest: 6Bb3NhWxX8k3R6MK9JhXu/G2D4hXzar5upeMwyEGkbQ=
+
+Name: res/color/passport_checkable_btn_text_color_stable_light.xml
+SHA-256-Digest: hE6Tu0actFmXz2ldc3lp22GouDKVO1iLvWu4uwaiF40=
+
+Name: res/drawable-xxhdpi-v4/lv_bg.9.png
+SHA-256-Digest: Fh7MrO0JC8NqsM0N3rEpth9OHIXz5DYuaOIGY9dYWG4=
+
+Name: res/drawable-xxhdpi-v4/icon_bind_devices.png
+SHA-256-Digest: UbAIZ3wBItx2/PaOTlWxA2/Tl7w68Uo7b+L2bw9yYOU=
+
+Name: res/layout/passport_captcha.xml
+SHA-256-Digest: U88JiKqCM4fnJv0SLfThTic2OHFZRFyzABBuuDlh95Q=
+
+Name: res/drawable-hdpi-v4/passport_provision_btn_n.9.png
+SHA-256-Digest: 6/oUxqSc4aMatdxrA5MlE9s+5Wfl1fPQkpsz+MP+PjI=
+
+Name: res/drawable-xxhdpi-v4/passport_phone_get_code_bg_n.9.png
+SHA-256-Digest: 7LGoA8ZdElK3Yzm5BCRpclRstFAsilwBZI7JKqT0aDQ=
+
+Name: com/xiaomi/xmsf/push/service/IStatService.aidl
+SHA-256-Digest: z+3I89a/bdoKDkMC9wO9t4eMosddRqfq90fU2ZtnvVU=
+
+Name: res/drawable-ldrtl/passport_btn_bg_last_light.xml
+SHA-256-Digest: IdfO53GUABkq408/hjs/zn+8634bqQTyh3OZQiKDUOA=
+
+Name: res/drawable-xxhdpi-v4/icon_mi_pass.png
+SHA-256-Digest: Bg6RQmgmF6qVUnvTRUkCrOYTdcElXL71zKlDt/0Q8qk=
+
+Name: res/drawable-xxhdpi-v4/passport_list_item_last_bg_normal.9.png
+SHA-256-Digest: v7+B9ORIGPJlM2Yj2fI15jtiR4tsDqV0/tYWJKXawcs=
+
+Name: res/xml/preference_screen.xml
+SHA-256-Digest: 4ZhlHWLnphGEQ9GlCmIumhWFVmCQbNbjVY3KDV6HUlE=
+
+Name: res/layout/locked_account_login_bottom_panel.xml
+SHA-256-Digest: LLYSv+5pWdTdfhT/3IBevYVpV9GAaK2pfsGE2Wtymdg=
+
+Name: com/xiaomi/xmsf/push/service/IHttpService.aidl
+SHA-256-Digest: ZywYi6Z/a2fdmY2BaRaZl6FBByBzjOruv//KX1b1AUQ=
+
+Name: res/layout/passport_probably_recycle_phone_content.xml
+SHA-256-Digest: S2B9FaKHkQevBYdK/TcO7yNyyhxEhsN3bJzq/26MBvg=
+
+Name: res/drawable-xxhdpi-v4/passport_sim_dual.png
+SHA-256-Digest: b2o3UebV5cJzrSs1/euKYcy24wUYxIkp9TT9MF5HLtg=
+
+Name: res/drawable/passport_action_bar_back_light.xml
+SHA-256-Digest: JXlLmPjG8iSysy+Zt3gyIjkfpgBUqwo1uWZ6ILW0ZqM=
+
+Name: res/drawable-xxhdpi-v4/passport_action_bar_bg_light.9.png
+SHA-256-Digest: KP3YpoBtOrYBnofKQVpEnUFYAgDkO+ITIeVlAwVmrqc=
+
+Name: res/raw/passport_countries
+SHA-256-Digest: BP8cKouRVgg1HOVO3VTzQCV1nTv5PDwmG9bjdkWxsE0=
+
+Name: resources.arsc
+SHA-256-Digest: dcZhFgqPim74BQIO34KKD+lZg4QZsTOLf6OkATyMOQA=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_single_normal_light.9.png
+SHA-256-Digest: BTfUVWkMHDhglKdK0/e8IWUNSyxFREWRgG+TOtOjLcI=
+
+Name: res/layout/country_area_list.xml
+SHA-256-Digest: 3qLw+xGT111LudFBhu3D2qBF/8tPNhaOUHF/hOhTVeg=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_dialog_single_pressed_lig
+ ht.9.png
+SHA-256-Digest: OcFynfPdMPvbW3BKZAsTlgOqMWPgFLuCbmZLsduJO9M=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/action_bar_back_normal_dark.png
+SHA-256-Digest: mB3iWCVxyaW1jjvp30zlnjBHBtmQQQKn+caTlj6lkik=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: KBU2D4F5OEzueBJBOmbw+27wlSEJiX5n8tdjkg/Y3ww=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_last_pressed_light.9.png
+SHA-256-Digest: 70EdC08c2F4Lj4MwWTnX1adr/+vytPGg0YAJ8v1rDWU=
+
+Name: res/xml/miui_hybrid_config.xml
+SHA-256-Digest: dZtLvkUdj6BH+hGrCyBDKUPR7BzWkzh40tvzlG2ABbw=
+
+Name: res/layout/passport_registered_not_recycle_phone_login.xml
+SHA-256-Digest: 2VtrxCkZ53gg0NcgEQGv8bQHsDDjgB+6FLEgMEBQVeo=
+
+Name: res/drawable/passport_list_item_bg_light.xml
+SHA-256-Digest: AgqNuP4/LO1sJG67M+ihjT9WiQuvcVdEFwdjBkgtkJc=
+
+Name: res/drawable-xxhdpi-v4/passport_action_bar_back_normal_light.png
+SHA-256-Digest: 31CaKixroe44LPHqqQYtlx8kgAfPd3XjIGY7IJH9QXM=
+
+Name: res/drawable-xxhdpi-v4/passport_action_mode_split_bg_dialog_ligh
+ t.xml
+SHA-256-Digest: 3ik2S08fIhC2DTnbLAGQ10cZS+ioZ8ztocO098Sm1C8=
+
+Name: res/layout/passport_license_activity.xml
+SHA-256-Digest: OoF6+c1RCf5EXtyWmN/1VJzzCI6GoV+uy/gEHF1oKiI=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_arrow_right_disable.png
+SHA-256-Digest: BaF0btD0IhA31tsj3MfKX18nBwfxK8jcYI9sMpl1caE=
+
+Name: res/layout/passport_alert_dialog_progress.xml
+SHA-256-Digest: hKUTDoGDpir/jyz5MOhpXRPz9UTeM1lz+dH226mQ9x4=
+
+Name: res/layout/passport_register_success_content.xml
+SHA-256-Digest: hQ+OmEMByfwIkEbCrFPE6JA3loHspYtdtTtXN3AG2/U=
+
+Name: res/layout/vip_portrait.xml
+SHA-256-Digest: zsdrEiOvQxT64aclkB2BMyT4TY1kuWjK8/0n3Y5eWdA=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/ic_bind_qq.png
+SHA-256-Digest: WWk8h6rXiys5tU4473uWDa/YXxDS5Su6nEop/pv/5fE=
+
+Name: res/drawable-xxhdpi-v4/passport_ic_contact_photo_mask.png
+SHA-256-Digest: kuuxeJ5lgrngvWTM6P6iUQEuaiSKiBlpn8eVTaGhGyE=
+
+Name: res/drawable/passport_btn_bg_dialog_last_light.xml
+SHA-256-Digest: HBzNPvLMU4HDkK81UgkiR8h3y3AqHtDuxALlVYoo9/Q=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/ic_bind_sina_weibo.png
+SHA-256-Digest: S7YdPi9NU2XMg2w0vYVWGfRI/R1PF/7PYWUJcA3JgYM=
+
+Name: res/color/passport_normal_text_light.xml
+SHA-256-Digest: Xry+aTTwZhzkcIiN7vF+Gu0J2dGLjAwSNi9yQu0GNAg=
+
+Name: res/layout/passport_phone_password_login_register_item.xml
+SHA-256-Digest: Q1rcZBUhvgOlzt2U02UY2W3PuCyCjtVDUWIRER8xTFM=
+
+Name: res/layout/other_device_detail.xml
+SHA-256-Digest: WYCKJKfHv95Ycjqdlxc4K4uucwk0wegxXxPwX2q41rk=
+
+Name: res/drawable/passport_btn_bg_last_light.xml
+SHA-256-Digest: E6JdbR+06lIIBc7xy/XsiYZTm2xejUzzJMDJWmmO1Pw=
+
+Name: res/drawable/scan_barcode_btn.xml
+SHA-256-Digest: Tk1fS3AEBaWxAAMSDR/wSQQ08sLxZqhHUwmPSvCwoj8=
+
+Name: res/layout/passport_probably_recycle_phone.xml
+SHA-256-Digest: 6ODCkOxtBQFIs+iUvsrIVo8fpa2HoDYCzWGOaG1CaCQ=
+
+Name: res/drawable/passport_miui_provision_back.xml
+SHA-256-Digest: I/tuo8L9JV7F+kJ0ubrjo2RKV4/5Th7cxzrmLglv9jE=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_warn_single_disable_light
+ .9.png
+SHA-256-Digest: +ezsDBytM66A3LMvG9umcHdtXtHThIbyQEzujQVZmlY=
+
+Name: res/drawable/passport_edit_text_bg_light.xml
+SHA-256-Digest: af9nkntaT/p1uLzdUcYzntM7lR6itqgoreAA19Et+IQ=
+
+Name: res/drawable/passport_btn_bg_dialog_first_light.xml
+SHA-256-Digest: C3xKt+BXps11FHE5e4nS9T7F/P6XCKfJr6YWRkRmNtA=
+
+Name: res/drawable-xxhdpi-v4/passport_alphabet_indexer_overlay.9.png
+SHA-256-Digest: Pyi9OLiUhWyIw77I8iEvByfq2BL4mRmvodI0SWNTFvA=
+
+Name: res/drawable/action_bar_back_dark.xml
+SHA-256-Digest: qRTjqKnDNWWwzH+hYshpV4dcJwmsY2C3mDCEeLBFYxE=
+
+Name: res/drawable-ldrtl/passport_btn_bg_first_light.xml
+SHA-256-Digest: cmfqJj08aiVzn/fkXOvpX3t20Wupc6UIjJXdWWvpYDs=
+
+Name: res/drawable-xxhdpi-v4/icon_scan_normal_light.png
+SHA-256-Digest: hbWvNt5xZESrknGNxC8lq5/Isb/0Lplw7vo7N1i1HGs=
+
+Name: res/drawable-xxhdpi-v4/icon_sns_bind.png
+SHA-256-Digest: kOS7YvYLCFDaRwjtvgkrZWCH23eoxjG4sb0oiyWZzMI=
+
+Name: res/drawable/passport_arrow_right.xml
+SHA-256-Digest: JfYtflFhR5CivbhHDDPVA7ccFvobNGViDWhZHiGhg9o=
+
+Name: res/drawable-xxhdpi-v4/icon_mi_family.png
+SHA-256-Digest: H+FqM08zj3bUURP/yTFPEwdRHgGQPDDWHVYd2Qaw1vo=
+
+Name: res/drawable-xxhdpi-v4/ic_bind_sina_weibo.png
+SHA-256-Digest: 5FQHN5OvjNbGsGhkui7dXdI+Xhw4r50SisjyAtICljU=
+
+Name: res/layout/logout_button.xml
+SHA-256-Digest: wKfx+njybDACDLxTbA2pzA/+Nerx9xPIQ/LrIsEb0eE=
+
+Name: res/xml/account_settings_preference.xml
+SHA-256-Digest: kJoV+NTMgl5YukOWhyaDDVSE++xBaIx1ACTTFS1h+uw=
+
+Name: res/drawable-xxhdpi-v4/passport_group_last_item_warn_bg.9.png
+SHA-256-Digest: lCtT8G7B9kb1ybscqxKUzovn136JiufJ9I6hfA+pAtk=
+
+Name: res/layout/device_delete_success_dialog.xml
+SHA-256-Digest: Mkm/hVPKyffkXmGD/58aDRap/J9mcGpu4qxYy7cb3fU=
+
+Name: res/layout/push_dialog_title_view.xml
+SHA-256-Digest: hnqNNA4MUaDANACJZpmbaDRXAwdIthgPV48k4PokzKY=
+
+Name: res/drawable-xxhdpi-v4/passport_action_mode_bg_dialog_light.9.pn
+ g
+SHA-256-Digest: KedkhbFnmiuj50CcHpP7MF++uANLag+3fNh3/P6Wwv0=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_first_normal_light.9.png
+SHA-256-Digest: zRu4EvE6sRPerzOUB/7rUoVEn2Bl0EtDgOh1b51LAKc=
+
+Name: res/layout/passport_alert_dialog.xml
+SHA-256-Digest: C7pSDnV1Icb1qbudVskwzwExUX/8mJz5pP/kRy9X0aQ=
+
+Name: META-INF/maven/com.squareup.okio/okio/pom.xml
+SHA-256-Digest: vQCz5JWQ9JQA3hSq8ep0GfV26hiF282nXKeL71FfNKw=
+
+Name: res/drawable-xxhdpi-v4/passport_sim_single.png
+SHA-256-Digest: irF6WmCdtWHRsIFSOG1wl8/pTfy6CYJcb4toasUfsDI=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_single_pressed_light.9.pn
+ g
+SHA-256-Digest: HJdUq3wY9W0O0BPFip2mg1m3Tyg8/EKGTCuAJIHvoA0=
+
+Name: res/layout/passport_miui_provision_password.xml
+SHA-256-Digest: Ck8RyA2fScUHxgs/pxEu7V1AGi8KZk/6tI3gIFUk0Kw=
+
+Name: res/xml/user_detail_info_preference.xml
+SHA-256-Digest: kuN/XaTtsAC+yBr7a2/3+WpPaOTJum6KVySEr1oG4S0=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_checkbox_off_normal_light.pn
+ g
+SHA-256-Digest: aOc7/HEJTVFl1ilvzy75eKJ+DITDVO67VtIz9SRBy1k=
+
+Name: res/layout/info_list_item.xml
+SHA-256-Digest: XByEJpj3v/xw0N7afG7XOUJ7HQVqHnK19c5ZNkKd6J0=
+
+Name: res/layout/passport_miui_provision_activator_phone_login.xml
+SHA-256-Digest: b1eqiFg52vjiFWS89P34NEQfY1sbV9wWBqLQO/4OINg=
+
+Name: res/drawable-ldrtl/passport_btn_bg_dialog_first_light.xml
+SHA-256-Digest: QxbXxj7D9HcgoMDfsnqefm1xSY4d6Tyvf7OknyVfGy0=
+
+Name: res/drawable/passport_phone_get_code_bg.xml
+SHA-256-Digest: 3GuCJCy8hjm9wb13C6mMTAgLNdzVfvP3xFs2+X+eJS8=
+
+Name: res/drawable-xxhdpi-v4/passport_arrow_right_pressed.png
+SHA-256-Digest: WQ5whXBiMVHEuaisuCFdhJbN1aErNEkXYTgvxCTEtKU=
+
+Name: res/raw/passport_countries_cn
+SHA-256-Digest: +Qgpr7lZSF4tkq5NbEUiWt8YvRJ9Z0OEHrP8ne1mb8I=
+
+Name: res/drawable-xxhdpi-v4/passport_progressbar_indeterminate_bg_lig
+ ht.png
+SHA-256-Digest: ZSADlZYQDiBqtMc1kSNK9FfXlHsJ7QpsgHjNqu1Ug7g=
+
+Name: res/color/passport_preference_primary_text_light.xml
+SHA-256-Digest: ILDBcF8rCzjG1OrD0scNIC/yp4WpqYpsARP6tOrxmws=
+
+Name: res/drawable-xxhdpi-v4/btn_bg_single_pressed_light.9.png
+SHA-256-Digest: nvgSLab6xU1vMNBAK5XKNS0+XcIAF35EpWFZOyXUDEo=
+
+Name: res/drawable-xxhdpi-v4/empty_device_list_icon.png
+SHA-256-Digest: 73TMV8j0RDjEdEVjMFmgPa3CyFvTxjz98fPMdgqeXZs=
+
+Name: res/drawable-xxhdpi-v4/btn_bg_single_normal_light.9.png
+SHA-256-Digest: VYjGoT8GOwdDYOJe9CKMMAv4YNM1XAk7ZHCyvt3iH2w=
+
+Name: res/color/passport_list_text_light.xml
+SHA-256-Digest: Vu/Pn5w5Mwd7fuH0npTH9SdtC/pWxGZVwthlBh96UwA=
+
+Name: res/drawable-xhdpi-v4/passport_action_mode_split_bg_dialog_light
+ .xml
+SHA-256-Digest: kWqsvdACFnCnDeW8QYcxVLGyhHGCcuZOFE7TjTUucfI=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_miui_provision_back_n.png
+SHA-256-Digest: kqykJ8K7wwzQXJhBsJGaHtBsql72LeoYLM+tkhlhy5c=
+
+Name: res/xml/functionindex.xml
+SHA-256-Digest: fKrs0474lD6lLgSJolPjZh4M3Vagg/3e0j2499FdDfA=
+
+Name: res/color/passport_miui_provision_continue_btn_text.xml
+SHA-256-Digest: kk02+Mo0SDLRzrNR8qsGgrz9NEZhKDaKlzgja5dpYxo=
+
+Name: res/drawable-xxhdpi-v4/passport_miui_provision_country_code.9.pn
+ g
+SHA-256-Digest: PzhBN+XegwmHyQAyhnfAY4Fn7ZXrNmtdOkXPpN6ANik=
+
+Name: META-INF/maven/com.squareup.okhttp/okhttp/pom.xml
+SHA-256-Digest: JUFuJfl6l+xzRwftnpSn+GHN/89STaVeZN7Fe9oTAuU=
+
+Name: res/drawable-xxhdpi-v4/passport_ic_contact_photo_bg.png
+SHA-256-Digest: Yv4JIrqwdZEIWJergv0S8DLRu9uCrQueWvTd5BxsZoQ=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/action_bar_back_pressed_dark.png
+SHA-256-Digest: m8o88SwP7aD14o57abMNdxzT2wt5iNxpyRDtlqDq1jU=
+
+Name: res/anim/passport_dialog_exit.xml
+SHA-256-Digest: 70QgSoNBLY9an/cGEyqN5ADOyDTucoVTu8dO0rU/ZS4=
+
+Name: res/drawable/passport_btn_bg_warn_light.xml
+SHA-256-Digest: e4gRse+vomFnQJiFX1bSVsepXe/iaLRN2Z+EUV2z4z8=
+
+Name: res/layout/passport_miui_provision_ticket_code.xml
+SHA-256-Digest: aw+BPoEM265jL3u731KjvB5uR003Cg4NdtCncK7QryA=
+
+Name: res/drawable-xxhdpi-v4/ic_qq.png
+SHA-256-Digest: lvuqhAUDfK1DNiVNaykrdOHsPVCKBq/NCuoiFutZ9Jk=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_first_pressed_light.9.png
+SHA-256-Digest: FKIsbA2AUjljBQ4m9YRjvEykgKRf9CitLY5DDTd3Ajk=
+
+Name: res/xml/file_paths.xml
+SHA-256-Digest: v1H07iEsKWm4VdxvewemPUleZRl9KD3QCKjbsjJkXro=
+
+Name: res/color/passport_normal_text_dark.xml
+SHA-256-Digest: RtQxt6L1W3unTey59qb/KgqIy3m066Q/9lcx4nFRyAw=
+
+Name: res/layout/miui_provision_locked_account_login.xml
+SHA-256-Digest: TR161zXd23RVnEQ4Jdxsmv3B7t3WAGwK/nU1a+2X12c=
+
+Name: res/drawable-xxhdpi-v4/passport_miui_provision_sim_single.png
+SHA-256-Digest: GY0tPvv6xg4geabzGkiWgIYKXqWK45jR29BFBmzwgBk=
+
+Name: res/drawable/passport_window_bg_light.xml
+SHA-256-Digest: KhjpCIH5HT+mlXBlYEO369TpXznYP+43Ch+bam0jORY=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_warn_single_pressed_light
+ .9.png
+SHA-256-Digest: b5GHh4InkvusvKC/EykQHTeNKNsTMeI/g0Fdjbw/TKE=
+
+Name: res/layout/passport_reg_failed_used_email_dialog.xml
+SHA-256-Digest: Z4/nRnVAHC4jSIHVlZBxLjWomrxrRIAXTpzZZgfobOU=
+
+Name: res/drawable/passport_btn_bg_first_light.xml
+SHA-256-Digest: vVHpGAx0FlareJwFOu4F/rVYP4gm30OWCtavXrdWuo0=
+
+Name: res/drawable/passport_miui_provision_circular_btn_bg.xml
+SHA-256-Digest: sYm5ZHkrClokv5obNtyRO9hIyGFHsVO7dLOn6GcWHsk=
+
+Name: res/layout/passport_login_step2.xml
+SHA-256-Digest: 3922ba2BZH0ZYX4ymeAbVxSQLBXcB1+0qpFpDARyfJ8=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA-256-Digest: EdmY+p9I8uf8ODTlZmwmxS1ZxJdx9v5DGD27VkzdkJw=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_dialog_middle_normal_ligh
+ t.9.png
+SHA-256-Digest: xrUYBjg1cxtp7sYjuGN82AhMPldzCXukRsp+KWYSnPU=
+
+Name: res/drawable-hdpi-v4/btn_transparent_bkg.9.png
+SHA-256-Digest: AmbxMQ/OhIAA9eq7u9hLe7j62cF4BCUtI9R7EYc2zVY=
+
+Name: res/layout/passport_miui_provision_account_unactivated.xml
+SHA-256-Digest: 4X6IzxkJA2XWqTf1eE9S3011SPpwGh5luW1m2cEQOsU=
+
+Name: res/layout/account_settings_top.xml
+SHA-256-Digest: v60W31Jo/wQiofz+FmIOagoGAWhuXklPDZAYNaKDS94=
+
+Name: res/xml/passport_account_authenticator.xml
+SHA-256-Digest: 6ocPScMd4Je75oNu8HDoFYPJGvvVTWESGCPjKQVTa/E=
+
+Name: res/layout/no_network.xml
+SHA-256-Digest: hRtY/hsnI+ALUt/SELfQtuhRXrQacntkthXkGledFNg=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_action_bar_back_pressed_li
+ ght.png
+SHA-256-Digest: X2DotGPcuJEUlY2SZW5EhhThss2ajSSfVc9tuWcygl4=
+
+Name: res/drawable-xxhdpi-v4/passport_default_avatar.png
+SHA-256-Digest: ezPOSP+HTTuOTxhGFC6u6ctLqpd7oHtBDDHqYh2JSz0=
+
+Name: res/drawable-xxhdpi-v4/icon_mi_wallet.png
+SHA-256-Digest: x2KrimcdGLWsOEv8KVP+IR6UnBly7I1JyF0w876GB08=
+
+Name: res/drawable-xxhdpi-v4/no_network.png
+SHA-256-Digest: EIV/4knniqaPdhG1B0VomUQpZoVoahjPuWgcWRVXkMs=
+
+Name: res/layout/passport_miui_provision_login_input_area.xml
+SHA-256-Digest: NHzeC5LO1UMNf9GSzgihWDZghvppYozKCIBkGfxrzpk=
+
+Name: res/layout/passport_phone_password_login.xml
+SHA-256-Digest: p+nB9+XLOWD2sY5252+64U/9j2LhPcsf1xOAuvIZf6I=
+
+Name: res/drawable-xxhdpi-v4/passport_alphabet_indexer_bg.9.png
+SHA-256-Digest: QJxUF3+I4CEhI8pyL9V31MGU3x9mdSrQaTvaxksUMaw=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_checkbox_on_normal_light.png
+SHA-256-Digest: WNT7QMrI4Y5zU2Cq2YShyelhUaSDc/JCq8uoUeG3Hf0=
+
+Name: res/layout/passport_miui_provision_activator_phone_register.xml
+SHA-256-Digest: aaE1E/RUwHbj9Fegr14dVjZDOYUMl217BlGJqN7KSm4=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_group_first_left_item_norm
+ al_bg.9.png
+SHA-256-Digest: 4o9YNWB+VWVEjybxWldqpR6nbD9VfUCoBXCPdNDIG6Q=
+
+Name: res/drawable-xxhdpi-v4/passport_vcode_gray_bg.png
+SHA-256-Digest: w9xGbPeJ65wNWEA/RJkQ2O3a8XjH9bu9FLIMlqKtLqQ=
+
+Name: res/drawable-xxhdpi-v4/passport_list_item_single_bg_normal_light
+ .9.png
+SHA-256-Digest: bSaFyzeOez2w4vSRvOfjVZqpIuq1P7FygPQ2amjd+0Q=
+
+Name: res/drawable/passport_btn_bg_dialog_light.xml
+SHA-256-Digest: 89HwTMNE64RbdwA0nOQasMM0oTkdHBNWfcD3eQ6pBX0=
+
+Name: res/drawable-xxhdpi-v4/passport_miui_provision_back_n.png
+SHA-256-Digest: Oa6druR1kOfcZsyol0yt/vRf940fJd1pJYLtC8I+nGI=
+
+Name: res/layout/passport_miui_provision_probably_recycle_phone.xml
+SHA-256-Digest: PaIk15VLpfa87SGappseZqsZ06N0dl3er7K6aLaqNsI=
+
+Name: res/layout/passport_activator_phone_login.xml
+SHA-256-Digest: FW72qgbEuFdnK9efXzE7KKGJHovFu2CGiJKpMPMfg2k=
+
+Name: res/layout/passport_phone_ticket_register.xml
+SHA-256-Digest: dYXMcj3PiVw1F4gp+zC/MJBWEEVGsAjvZQlWirsMAKM=
+
+Name: mistats_version
+SHA-256-Digest: HDPraoMHZrM0H/l3qth9M97tq6OtnQmJJw2LfGYI0iM=
+
+Name: res/layout/passport_miui_provision_continue_bottom_panel.xml
+SHA-256-Digest: T4QVFQ5MPp4aScBRRWOMfXsfNgcVTF/isZYhGr3sVFc=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_pressed_dark.png
+SHA-256-Digest: ECQuyJ+UJQMFOf0zzR5J2aZhCMSC6CKfElbbV3YUQWs=
+
+Name: res/drawable-hdpi-v4/passport_provision_bg.9.png
+SHA-256-Digest: n3VaHMbug9bR4VGWcaANsZ3zOydEQs/txPgeHvK41QY=
+
+Name: res/layout/passport_miui_provision_input_reg_password.xml
+SHA-256-Digest: VehybeHvuXCxla1zx0zM5X89koV9orymQRESCSDuLh0=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_checkbox_on_disabled_light.p
+ ng
+SHA-256-Digest: T3H777CEuaQI4oIAGapG5q7HeOSJPS7dgGz1EMooDpE=
+
+Name: res/drawable-xxhdpi-v4/passport_progressbar_indeterminate_circle
+ _light.png
+SHA-256-Digest: 528i8jMhzJLhzMPd+24S/NSpeVgpdWKlaGNZheDYJck=
+
+Name: res/layout/passport_account_unactivated.xml
+SHA-256-Digest: 23o2HFu3ADRtMOAhwms/HxlEdU2E45KwmkSwQUqgE3Y=
+
+Name: res/xml/select_verify_phone.xml
+SHA-256-Digest: /PxI/dlpVQiHcnFtS0Mb6GDZdnyT9uRjlGkAH8bl49Q=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_dialog_first_pressed_ligh
+ t.9.png
+SHA-256-Digest: 2/msA9CgvfEpXKrSEUVK9FnApgEsUd9ySqvg1F99LMo=
+
+Name: res/drawable-xhdpi-v4/passport_btn_bg_middle_pressed_light.9.png
+SHA-256-Digest: r9f5H0GhJQoOgGiSdY8XfzAviaEyVHJZ5a75YjOQdRA=
+
+Name: res/layout/passport_phone.xml
+SHA-256-Digest: Yu9wuigIs+YdPzoDqoqFJJgixSlV0o4h9CkoUWYth48=
+
+Name: res/layout/quick_login_title.xml
+SHA-256-Digest: A+bxnv/+hVd5QQMd+d+iKEesw5Pl5KCsdeukE7OhZMo=
+
+Name: res/drawable-xxhdpi-v4/passport_group_single_item_warn_bg.9.png
+SHA-256-Digest: 1aSNoh91erO4ivKziqWqykbe2nOrfMfwmwFxuR8X61o=
+
+Name: res/drawable-xxhdpi-v4/passport_edit_text_bg_single_light.9.png
+SHA-256-Digest: 4v5+0M3/qnUMgqYCjc4zT72CwTzssRaNGVBp5m7otEk=
+
+Name: res/layout/passport_miui_provision_activator_phone_login_info.xm
+ l
+SHA-256-Digest: Gp1sC6gtZkn64vSk6A+kQWedhzryawc9wCI0JxAbofs=
+
+Name: res/layout/passport_miui_provision_account_login_register_item.x
+ ml
+SHA-256-Digest: bMwMMnL9totd3l+kdir4jJUNKslFR8QRM8M2QpwFoec=
+
+Name: res/drawable-ldrtl/passport_btn_bg_dialog_last_light.xml
+SHA-256-Digest: voyKIuNHXR9MfMsGQ6uVMZmou0PyP85dCOvnNFmO+VM=
+
+Name: res/drawable-xxhdpi-v4/passport_group_middle_item_normal_bg.9.pn
+ g
+SHA-256-Digest: 8qkmF5f45NyG8E3ss9Xr19KoCO739HDYQrIPyXz9GcI=
+
+Name: res/layout/passport_input_phone_vcode.xml
+SHA-256-Digest: KQgTmbD149M80PphXbO8EdIo3ZGRB3DVE5RGMcfY0Ss=
+
+Name: res/layout/passport_miui_provision_phone_password_login.xml
+SHA-256-Digest: yrpl60WqwX9Q1UiTNEzmTHR4VF1VJmBzKItYJ1BsDbQ=
+
+Name: res/anim/passport_dialog_enter.xml
+SHA-256-Digest: F9g0RWBHLeZFGzAFB3v4+lsGWL4J8GnZrW/xsDNicZk=
+
+Name: res/drawable-xxhdpi-v4/icon_scan_pressed_light.png
+SHA-256-Digest: 80Vdl9njE9q658W2uJuKSdgOEEZA0h8zPJCTWw9k4ho=
+
+Name: res/layout/passport_miui_provision_phone_info.xml
+SHA-256-Digest: 0dB8xpBXEP1FSCgR3/hcvF/BKGqvuOa4ePrRbzOLWFw=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_dialog_last_pressed_light
+ .9.png
+SHA-256-Digest: RVg+eJQ3iLq7jRBEBfx4UAnCNOzV3qWfCXSXiK6OuHg=
+
+Name: META-INF/maven/com.squareup.okhttp/okhttp/pom.properties
+SHA-256-Digest: b/vCrAHaxJCHdDN3WVHQJ3ZPP/iVjK53aXJeO3Zk/5A=
+
+Name: res/drawable-xxhdpi-v4/ic_facebook.png
+SHA-256-Digest: 7uJ87f5Ig1KA95Noy8Z7hB+BR2X7cUxWe3aEkjqUVd8=
+
+Name: res/xml/user_avatar_update_preference.xml
+SHA-256-Digest: dxqrcPePHH6tAzqLFeSH+OxxkusQC3vdBh5hqO2ccm0=
+
+Name: res/drawable-hdpi-v4/passport_provision_btn_transparent_bkg.9.pn
+ g
+SHA-256-Digest: rrK4640cggUCLz5vyVy/2ih9+cRUHXnm8Y8uV47LhLE=
+
+Name: res/xml/my_device_preference.xml
+SHA-256-Digest: thNs7y305/Z/S+JZVRf9bP1XQAW1938VNi3sSmsVG3o=
+
+Name: res/drawable/passport_btn_checkbox_light.xml
+SHA-256-Digest: TBg0mLxLgojnicM+D8k9+m447XHyRsdQ4pFW4yYobTA=
+
+Name: res/drawable-xxhdpi-v4/passport_group_first_item_normal_bg.9.png
+SHA-256-Digest: Hr0CHI4oyN5F6MaV4LBnKld2KbDUDnZ4YX8iU6ubA80=
+
+Name: res/layout/passport_input_reg_password.xml
+SHA-256-Digest: 8ZnPGZs3t+mrg6bUGzEDjqArTo2rjvyPv2G+6+9RCkc=
+
+Name: res/layout/passport_miui_provision_area_code_picker_fragment.xml
+SHA-256-Digest: rtPAV5w0mbwvAV95tfNjXZghY9kxdL33Gg0rXslJJ3k=
+
+Name: res/layout/user_phone_info.xml
+SHA-256-Digest: Ux9KUFRRQ/wKh8+DMLrHEcQ8jUW7opYNY1rJTaG6Fjo=
+
+Name: res/color/passport_action_bar_title_text_light.xml
+SHA-256-Digest: VHTqfCK1dZUyrvmPfJ1WhpwTjX/AxyYFjDrnB4KtjB8=
+
+Name: res/drawable-xxhdpi-v4/passport_list_item_single_bg_pressed_ligh
+ t.9.png
+SHA-256-Digest: BuInGqT/fNyBBmTJx4UXX4g6zc1p8aFzftRe/YJXtmY=
+
+Name: META-INF/maven/com.squareup.okio/okio/pom.properties
+SHA-256-Digest: spPXEkrqUmA80wU+LHf2bA2DRO6I/ImqlmAeqppVWoY=
+
+Name: res/drawable-xxhdpi-v4/passport_list_item_single_bg_selected_lig
+ ht.9.png
+SHA-256-Digest: FiYv0asuH9kyzKiy+AQ3qlRa8ovQPzJVorccbGGDxkg=
+
+Name: res/layout/native_oauth_dialog.xml
+SHA-256-Digest: kt1bGW/y5jWNGY89kYkg5WjRmXZsR8y8lJMjx+TF8PU=
+
+Name: res/drawable/red_oval.xml
+SHA-256-Digest: A+RsZiccgGmetgQu71Rp3XdbUgdmgETuxv6SGaDCu/E=
+
+Name: res/drawable-xxhdpi-v4/passport_warning.png
+SHA-256-Digest: w4T7fpR7rNr0ry+jOM7RnhfUqCUkFOVtB0J7BKa7/6Q=
+
+Name: res/layout/simple_spinner_dropdown_item.xml
+SHA-256-Digest: oEpOmeqGxvgOs37MfCTaM8eRsQ4uhWX0SZKLJ3PvmOE=
+
+Name: res/layout/passport_miui_provision_password_login_fragment.xml
+SHA-256-Digest: JdGC5Cf6qP9pGwymHPzES3u9kcmzDSGS/6Ibvi0G8Js=
+
+Name: res/layout/passport_miui_provision_input_reg_email.xml
+SHA-256-Digest: 0QH94Ij4JWgCCO4C2vWLf0lxI+AmsM4MS6yOz6VMVv8=
+
+Name: res/drawable-xhdpi-v4/passport_btn_bg_middle_normal_light.9.png
+SHA-256-Digest: c7g3h2zvVcJqeqxPBWLmRv1FHW7nxAdGjGvZCMEs768=
+
+Name: res/layout/passport_miui_provision_account_register_success.xml
+SHA-256-Digest: aE6CWekgLZrMF2T7Sy5spL4Zo3roCw1ObcEDcN1+lZc=
+
+Name: res/layout/passport_miui_provision_registered_not_recycle_phone_
+ login.xml
+SHA-256-Digest: afVJILE79jVLWc/8KYyuM/8eisGdEkWqQIXwfIylQZw=
+
+Name: res/color/passport_primary_text_dark.xml
+SHA-256-Digest: VtW2th8wb/z0WmquD49ksupr35nu7CUV8hdCvavOzgA=
+
+Name: res/layout/passport_miui_provision_user_region.xml
+SHA-256-Digest: 9tPh6exzSzC7XHkG/XhoV89w2SygzlH9vHFKVqNDAeg=
+
+Name: res/drawable-xxhdpi-v4/ic_sina_weibo.png
+SHA-256-Digest: cNSj60oQEoCsnt+pnRXD3ANlWgvaeEM2trOa95Og438=
+
+Name: res/drawable-xxhdpi-v4/action_info_flow_refresh_normal.png
+SHA-256-Digest: IxzkD1gcuJ86JBzpkMLmj1hk2XIJmPxn5Aoek99PkoI=
+
+Name: res/drawable-xxhdpi-v4/passport_ic_contact_photo_fg.png
+SHA-256-Digest: 7VqV3enotauqK/1hgzQiCT+StoQy9JVoIg1Pgal7Uy0=
+
+Name: res/layout/device_list_item.xml
+SHA-256-Digest: rdFO0kz7zlcWpmXzdFelLu3c7LdLOyKltbGE0U8Vucs=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_dialog_first_normal_light
+ .9.png
+SHA-256-Digest: 7JBD+gK5/pMREufFqaLkkWG6YzI5+nGi6qZ5elNeWPI=
+
+Name: res/layout/preference_text.xml
+SHA-256-Digest: G5Jm5qj3UKB/2qnQe/0AvbpYHhslKYHzE0Sb5+0uwp0=
+
+Name: res/anim/zoom_in.xml
+SHA-256-Digest: AXnE7TOII6UWd+tV/yVQZv0loWoVeIUcUn0HkVCQTQY=
+
+Name: res/drawable-xxhdpi-v4/passport_text_cursor_light.9.png
+SHA-256-Digest: FUnPHI0JtRtYUqSKlurH0If0Ga+0D+/vbt4h4OdmYUQ=
+
+Name: res/drawable/passport_btn_bg_light.xml
+SHA-256-Digest: riv8oiATYRh93wkNuOhlxqwfGSbbHrjD2p2mrBz38r0=
+
+Name: res/layout/passport_password_login.xml
+SHA-256-Digest: u4H2HqmsNi2PoiZ2JW9q8YJCvXdR9B/Q4qHnDvvMAqU=
+
+Name: res/layout/passport_user_region_layout.xml
+SHA-256-Digest: dQotvkPXuVHUqqZll53+R/queIJK7bnikBAmpKD3tn4=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_arrow_right_normal.png
+SHA-256-Digest: 0CahRzc1OQ/vaJhOOu3whN70HBQxQhe2/adVYJnuXYg=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_checkbox_off_disabled_light.
+ png
+SHA-256-Digest: xfNlC6cGBJGRVUCfTXMTmowxlibCBFY230HDbGlUJy0=
+
+Name: res/color/passport_miui_provision_circular_btn_text.xml
+SHA-256-Digest: eO3+FPIMEaNlLKvi7cJXYdJpemQPvFTg97g14dlg4BY=
+
+Name: res/drawable-hdpi-v4/passport_provision_btn_p.9.png
+SHA-256-Digest: TEQTNAHwubzcqCJZ00WGU4bTlqDc60Ym/c70POd1S38=
+
+Name: res/drawable-xxhdpi-v4/passport_arrow_right_normal.png
+SHA-256-Digest: Y6kTC5WYN3MXP8ikZ1J8TH3P5h0tk5P2MVCl21hhZ/8=
+
+Name: res/layout/my_device_list.xml
+SHA-256-Digest: NRVRRKoNH0/9L8jggP09a5DAA+XyHeD5266Y0tm+9Pw=
+
+Name: res/xml/account_security_info.xml
+SHA-256-Digest: m7x6EpdkDOhUcIPJ30XRjQmDhH5vgHHjNH7JE+lhxRk=
+
+Name: res/color/passport_preference_secondary_text_light.xml
+SHA-256-Digest: GmUTwBbPTO1XUXPQV9+6SRVkhcgjbeS87kBTSeW8OIk=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_dialog_last_normal_light.
+ 9.png
+SHA-256-Digest: PzlKSVBJPY6uW8ZQK0bpzSdx0CmNCYwiQQyqR5Fpx+s=
+
+Name: res/layout/preference_account_value.xml
+SHA-256-Digest: ozAgRwCdE0XZrXaUFrf8XgO0lR7SwJkCEKHTIBBJE4I=
+
+Name: res/layout/sns_add_account.xml
+SHA-256-Digest: rcY+COKO7OwLYKfZGCXvb1OYRqBh7mHbourmFcMMCkU=
+
+Name: res/layout/passport_area_code_list_item.xml
+SHA-256-Digest: gNfxX3aeDoK25X7HZtxPkEqUfY3vHBbxVuFlBTOPp10=
+
+Name: res/layout/passport_password.xml
+SHA-256-Digest: U4jvVeejaEh43Gdg6IQdVnT+AjBY+SnwrpZ9sJE9pMU=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_last_normal_light.9.png
+SHA-256-Digest: /Ln0YSYZrN37mYn0yvUofI94r+jwc+grXfvmF1W1Ask=
+
+Name: res/layout/passport_miui_provision_phone_input_layout.xml
+SHA-256-Digest: HUG9i+Llkht3hAk4kf6U4OyMmPcUg+k7axhUzcWdxUs=
+
+Name: res/layout/authorize_activity_action_bar.xml
+SHA-256-Digest: HRBq7nWR2w7vAymCDJHrQ1G6iFjqR2dayKaUB4UHa9k=
+
+Name: res/layout/passport_miui_provision_phone_login_register_item.xml
+SHA-256-Digest: nG8fFUYYpzBOUktiyIYjIhuk48bEEkMEnWFG+Rb1TMg=
+
+Name: res/layout/passport_miui_provision_login_step2.xml
+SHA-256-Digest: 9ZcBxN+i75mTIx20uzrXa6roFuWrFdNA6Wja2AeZnXk=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_warn_single_normal_light.
+ 9.png
+SHA-256-Digest: Cc3jRZqs9dh59bw1DiA3iOaYhv9sczQi/n21kkAiU8E=
+
+Name: res/color/passport_hyperlink_text_color.xml
+SHA-256-Digest: ZKtTtAF8QH3kY18M96PPL/OB2VTbPn3plh3H63x/GCk=
+
+Name: res/drawable-xxhdpi-v4/passport_reg_account_info_bg.9.png
+SHA-256-Digest: 6OXtSKyAKsUTTOToDF6uoFiCxvwCse6YjFhnNJYF1ow=
+
+Name: res/drawable-xxhdpi-v4/icon_account_protection.png
+SHA-256-Digest: 2sVLoxTcaeMib6b9g/6hHnreilR8DvPZ92NPCpC9lfc=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_dialog_single_normal_ligh
+ t.9.png
+SHA-256-Digest: 8hHPp+aANSY+xfVWmM+N1SzOxVVIO+IsoB61Y6BActY=
+
+Name: res/xml/mi_pay_info_list.xml
+SHA-256-Digest: y8GCPZcPRivzp1jtO4Cw8XT1fzSUDknez8OTst+FnmM=
+
+Name: res/drawable/btn_bg_single_light.xml
+SHA-256-Digest: Zy/Eeh5M4C0aYbXho+AnMPLy/aqWZNAsEV51WfWuPEQ=
+
+Name: res/layout/passport_miui_provision_captcha.xml
+SHA-256-Digest: 8CwMeAO12kHZiQO7iH14gmNF0Jd4h/IQry+tRbh8VGs=
+
+Name: res/xml/guest_account_authenticator.xml
+SHA-256-Digest: g6RrFIEeMx9ehjvropwRnuOLS/c4GDr2/++v9t7ylQw=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_normal_dark.png
+SHA-256-Digest: F6+INjuhmhLDhin7NzFhpZC0SY7zObQ22aHc20WDwe0=
+
+Name: res/drawable-xxhdpi-v4/passport_btn_bg_dialog_middle_pressed_lig
+ ht.9.png
+SHA-256-Digest: +IBb/HFmxH2jM1bfapIXPciBiJp//I2B4HaEilz4jV8=
+
+Name: res/layout/unactivated_bind_email.xml
+SHA-256-Digest: KXj6J1XkusxCvqe/q9EK9MmRwTrswyjcuLxgs/AyOPg=
+
+Name: res/menu/devices_immersion_menu.xml
+SHA-256-Digest: 4j36UawA8gETy/ZTtUb+zpqg5I13+yHqAZO0ngs+/bY=
+
+Name: res/layout/input_bind_email_address.xml
+SHA-256-Digest: 00soLLsLPo9XD6iF+oqcx9NVPvkL0PSROLjzjNcbY0M=
+
+Name: res/layout/locked_account_login.xml
+SHA-256-Digest: lPgx0gm13zkQ7sCNC8hzSanePyyhjPnTUywRvRy7Y9g=
+
+Name: res/drawable-xxhdpi-v4/icon_my_favorite.png
+SHA-256-Digest: B6vvu2B4gLuT804ADsL17vUtUHIC43k4HxXFYfvaKqM=
+
+Name: res/layout/passport_miui_provision_phone_ticket_login.xml
+SHA-256-Digest: jvA/bqLx/BQrZhIj+2BrG9DJHn8p+4Uv+5PBMgRYokI=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_action_bar_back_normal_lig
+ ht.png
+SHA-256-Digest: efydB6vNpIL3T2kN7eGLz51WaGzvwPI5IDDe5hcsaJY=
+
+Name: res/layout/passport_account_register_success.xml
+SHA-256-Digest: +4eXKfhp4qguhjUtGowByAJgQ9K7G9NOop0hewkcIbw=
+
+Name: res/drawable-xxhdpi-v4/icon_mi_bi.png
+SHA-256-Digest: PtE0LN+TiyJ6hBR5fhHZmLLTCKLT6AP3AfeGHxemkEE=
+
+Name: res/layout/user_avatar_update_fragment.xml
+SHA-256-Digest: jqg0M7HBgzhRcRhrwWfV7KiYQcWzTzA3P4lmjKbcAzc=
+
+Name: res/drawable-xxhdpi-v4/ic_bind_facebook.png
+SHA-256-Digest: kUQtyGg/UE5BJ7BBtRIiDo84Xqh3HxxtjPsAGMZ+Ud8=
+
+Name: res/drawable-xxhdpi-v4/passport_group_single_item_normal_bg.9.pn
+ g
+SHA-256-Digest: bDDw/t9c2eM6kpCYrXAvYaCshueAiEo4kCBKZiZpo7Q=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_arrow_right_pressed.png
+SHA-256-Digest: diFj1zhSv6YYj0rJ4x+mI8owEYOeuhHssJhYIAT8DVw=
+
+Name: res/layout/passport_activator_phones_layout.xml
+SHA-256-Digest: 7Itc5H3vcNukHow9nLoTQ+qtKFJu/RzPi6bcI2GPe7M=
+
+Name: res/drawable-xxhdpi-v4/passport_phone_get_code_bg_p.9.png
+SHA-256-Digest: JeN21ER49AmdvuoLWiws227UOYhnfkizqEYyoVZX6gM=
+
+Name: res/layout/device_info.xml
+SHA-256-Digest: xQ7S33Wdyzdc0uUXHX1KiU0Y/ed3vDQmSja/YdNGamg=
+
+Name: res/layout/passport_miui_provision_login_bottom_panel.xml
+SHA-256-Digest: t/gSZrpAp3AdRg3PGIzTzqUl5waRNQTDqQ4A76InjkQ=
+
+Name: res/drawable-xxhdpi-v4/passport_alphabet_indexer_text_highlight_
+ bg.png
+SHA-256-Digest: 7fXbxUAX93N4GoiB+goEiwunF5UUZTANpWvfNubW83s=
+
+Name: res/drawable-xxhdpi-v4/icon_cloud_service.png
+SHA-256-Digest: lg9aPkH5dxdOoUEvqEVYfVX6D4w3LrmGcfH1wKAl8FQ=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA-256-Digest: AoTntYY0381h/EhjfJqy97ZmMlOG8hIcTQeETc4KWAM=
+
+Name: res/drawable-xxhdpi-v4/passport_action_bar_back_pressed_light.pn
+ g
+SHA-256-Digest: Wbo/LxNXQC1OIdNQMADW1J++Pzc2k0DOf1+sgIxmtwc=
+
+Name: res/drawable-xxhdpi-v4/passport_group_first_left_item_normal_bg.
+ 9.png
+SHA-256-Digest: 2/I310D/Fg50/vHZW3q8k84nNpkb0KjN3SyhL+FlMJs=
+
+Name: res/layout/passport_phone_ticket_input_layout.xml
+SHA-256-Digest: OE9g2PvWil9+Q24Z21WuVwXR72m3GPBAvFKCOSrg3dQ=
+
+Name: res/drawable-xxhdpi-v4/passport_mi_icon.png
+SHA-256-Digest: TMMc/NxVKLUiRxgzgnWJVD6AtwBcuOAVxqJm7UVuDHk=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/ic_bind_facebook.png
+SHA-256-Digest: 9TzqqYc06CY82qGD5pn9aPX7CiIv4tEuga+/y5OpuH4=
+
+Name: res/xml/sns_list_preference.xml
+SHA-256-Digest: jPfOaIuOxJMMjKO1CzRt3Zs6outdKDahmjPCiU0Wtns=
+
+Name: res/layout/passport_reg_by_other_ways_dialog.xml
+SHA-256-Digest: gXb4isxh8YrMhCY3JBsOfcj020tdXHKqR4k4GUbXa5w=
+
+Name: res/drawable-xxhdpi-v4/passport_group_first_right_item_normal_bg
+ .9.png
+SHA-256-Digest: oPOSR7a522xkV9amzGKps5srrfCBpc8yaV61q/3Whvo=
+
+Name: res/layout/passport_account_login_item.xml
+SHA-256-Digest: tiziWIjwydonVeQD9TFgkCx5vPgZudcFWmDfJqJRb3E=
+
+Name: res/color/passport_button_text_light.xml
+SHA-256-Digest: PVIMdcfNk1Q7M2AUAfczvXtkWgcu6UJJ01ZhTFyqRww=
+
+Name: res/color/passport_dialog_list_text_light_single_choice.xml
+SHA-256-Digest: f/RipC2nn3A479xfTExdwhcuFu+sFVl0I697uwx/bHU=
+
+Name: res/drawable-xxhdpi-v4/passport_dialog_button_bar_bg.9.png
+SHA-256-Digest: Yvp1VRcjllbV+uR3DXmI4oBNgcgfT0prvuwyNPDwEWo=
+
+Name: res/drawable-xhdpi-v4/default_avatar_in_details.png
+SHA-256-Digest: VmchTABoEfpJdSqgPPqM+hFhmcjVCKcehFosGVIm7K8=
+
+Name: res/drawable-xxhdpi-v4/passport_vcode_input_bg.9.png
+SHA-256-Digest: 9DibEpGk8BfKOzS2syOl94YG9KBoLLaBxVBOLvZwwTA=
+
+Name: res/xml/mi_authenticator.xml
+SHA-256-Digest: mHo0i96AJirzWRv9ByCTDo8Gef5WwkScmKfOByZGALE=
+
+Name: res/layout/passport_phone_info.xml
+SHA-256-Digest: iJPTpaMPc8BNNGOnLtyB3PKC+0Ki2I1hn/7Krq7pwiw=
+
+Name: res/layout/preference_image_value.xml
+SHA-256-Digest: IMiOK/IMUchq47fnYQs76huQSf0nvJqFRcFwOIO4ie8=
+
+Name: res/layout/passport_progress_dialog.xml
+SHA-256-Digest: Btga+ltzxZJStvru4pnzfSC/ngF6gSLy9QhvpmIJQTA=
+
+Name: res/drawable-xxhdpi-v4/passport_miui_provision_back_p.png
+SHA-256-Digest: CVjPmzWCuib/Z7n/HNy0rM7bSQ5+pvshPFGA5Uhj/XM=
+
+Name: res/drawable-xxhdpi-v4/passport_group_middle_item_warn_bg.9.png
+SHA-256-Digest: 0JSkLQs6iuULI7VbUsBhg8mOWxVl9JO+b8Ry4ZYsThk=
+
+Name: res/layout/passport_phone_ticket_login.xml
+SHA-256-Digest: CJIFcU3+tb5F3SwZOW3XVaYRWyPFtn2FDWFpwkNtP/4=
+
+Name: res/drawable-xxhdpi-v4/action_info_flow_refresh_pressed.png
+SHA-256-Digest: C8x2ICMEyK/6B7bTE2IorzoWhn+yc17mvDVTMRQj6J0=
+
+Name: res/layout/passport_input_reg_email.xml
+SHA-256-Digest: 1E2zR2BU1WqJTSAVGB6qlAh5CgzVqJAEJbqYnddiiL4=
+
+Name: res/layout/passport_quick_login.xml
+SHA-256-Digest: 9R9GG2Eu5Egv7U0RPwjM63buKp6mSmkoR7EMBnsw7P8=
+
+Name: res/drawable/action_info_flow_refresh.xml
+SHA-256-Digest: o9W+9r+Hjuj8Jm4hqBXH1OHrlts1IgFw5C82eAv6E2E=
+
+Name: res/drawable-xxhdpi-v4/passport_group_first_item_warn_bg.9.png
+SHA-256-Digest: um2m+dtVbjnlncTaRFIeRCYE+2W+Q5mkFJ4o+LlmPfI=
+
+Name: res/layout/weibo_webview.xml
+SHA-256-Digest: VqIbjy80mEAlnAD7gYRaVAcM0cOoEC/O2CuR2Te+phI=
+
+Name: res/drawable-xxhdpi-v4/ic_bind_qq.png
+SHA-256-Digest: QO4ouKABdDqbryg0T9AcngMdDvR17HN69/Lky0Bufko=
+
+Name: res/drawable-xxhdpi-v4/passport_password_not_show.png
+SHA-256-Digest: 31Kb0fw089K1CWog3CJqQZEUXPtIvHnVav8aRP+Ew5Q=
+
+Name: res/drawable-xxhdpi-v4/icon_mi_insurance.png
+SHA-256-Digest: LRRAarYF87qZEMLUPYvWjExraPPiZGAwScUrMSPAf0s=
+
+Name: res/drawable-xxhdpi-v4/passport_password_show.png
+SHA-256-Digest: Yt+ZUPKtnpgBfou5BvavXzLP0hNVYJYkOtcSEtGBfbM=
+
+Name: res/layout/passport_area_code_picker_fragment.xml
+SHA-256-Digest: Gh5ZjeQwvk9yvw7niFcO0NVDv9PnOUtcgG6o4491hwk=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_group_first_right_item_nor
+ mal_bg.9.png
+SHA-256-Digest: 4M6VN1UfSMDhsa8beBl8WU+QJNDC23myV/Ytr0j/twU=
+
+Name: res/drawable-hdpi-v4/passport_btn_transparent_bkg.9.png
+SHA-256-Digest: wQfczJTggFi6te3dHcs2mdcqnOTcH15lBvY1ScqgoUk=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/passport_miui_provision_back_p.png
+SHA-256-Digest: mbSBAIssKPEotW5vSr4qXAfwZMdStBGcKz35Q7cIRCw=
+
+Name: res/layout/sns_account.xml
+SHA-256-Digest: eqqIEogj/SrZNa8W3l/q5oyGm+EHNySsitYsej1zUKE=
+

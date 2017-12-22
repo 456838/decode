@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Passport.DialogLayoutPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/change_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_password" />
+    <Button android:id="@id/completed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_content_bottom_margin" android:text="@string/completed" />
+</LinearLayout>

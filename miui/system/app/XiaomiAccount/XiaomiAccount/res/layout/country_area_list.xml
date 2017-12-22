@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/account_settings_title_content_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/account_settings_button_margin_h" android:paddingEnd="@dimen/account_settings_button_margin_h">
+        <LinearLayout android:orientation="vertical" android:id="@id/current_location_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/miui.TextAppearance.List.Secondary.Preference" android:id="@id/current_location_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/current_location_title" />
+            <View android:layout_width="fill_parent" style="@style/Passport.Divider" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="23.0dip" layout="@layout/info_list_item" />
+        </LinearLayout>
+        <TextView android:textAppearance="@style/miui.TextAppearance.List.Secondary.Preference" android:id="@id/select_location_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/select_location_title" />
+        <View android:layout_width="fill_parent" style="@style/Passport.Divider" />
+        <com.xiaomi.account.ui.ExpandedListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/passport_content_bottom_margin" />
+    </LinearLayout>
+</ScrollView>

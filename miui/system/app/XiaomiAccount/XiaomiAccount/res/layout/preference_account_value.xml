@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_item_padding_inner" android:layout_marginBottom="@dimen/preference_item_padding_inner" android:scaleType="fitCenter" android:adjustViewBounds="true" android:paddingEnd="@dimen/preference_icon_padding_end" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/miui.Widget.PreferenceItem">
+        <TextView android:textAppearance="@style/miui.TextAppearance.PreferenceList" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@style/miui.TextAppearance.List.Secondary.Preference" android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+        <TextView android:textAppearance="@style/miui.TextAppearance.List.Secondary" android:textSize="9.329987sp" android:textStyle="bold" android:gravity="center" android:id="@id/right_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.3299866dip" android:layout_toEndOf="@android:id/title" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/miui.TextAppearance.List.Secondary" android:ellipsize="end" android:id="@id/value_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:singleLine="true" />
+    <ImageView android:id="@id/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/passport_arrow_right" android:layout_marginStart="@dimen/preference_item_padding_inner" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="10.0dip" />
+</LinearLayout>

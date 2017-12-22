@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miui.preference.RadioButtonPreferenceCategory android:title="@string/verify_phone_prompt" android:key="pref_select_verify_phone" />
+    <com.xiaomi.account.ui.ButtonPreference android:key="pref_button_next" />
+</PreferenceScreen>

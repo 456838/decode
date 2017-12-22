@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updated_contacts">
+        <item quantity="other">འབྲེལ་གཏུག་པ%sགསར་སྒྱུར་བྱས་ཟིན།</item>
+    </plurals>
+    <plurals name="view_all_devices">
+        <item quantity="other">སྒྲིག་ཆས%dཡོངས་རྫོགས་བལྟ་བ།</item>
+    </plurals>
+    <plurals name="view_all_apps">
+        <item quantity="other">ཉར་སྤྱོད%dཡོངས་རྫོགས་བལྟ་བ།</item>
+    </plurals>
+    <plurals name="view_all_browsers">
+        <item quantity="other">བཤེར་ཆས%dཡོངས་རྫོགས་བལྟ་བ།</item>
+    </plurals>
+</resources>

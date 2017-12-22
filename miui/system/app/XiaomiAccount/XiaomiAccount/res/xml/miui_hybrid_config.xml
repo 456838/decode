@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <name>XiaomiAccount</name>
+    <feature name="miui.hybrid.feature.Share" />
+    <feature name="miui.hybrid.feature.Geolocation" />
+    <feature name="miui.hybrid.feature.Network" />
+    <feature name="miui.hybrid.feature.Device" />
+    <feature name="miui.hybrid.feature.Barcode" />
+    <access origin="*" />
+</widget>

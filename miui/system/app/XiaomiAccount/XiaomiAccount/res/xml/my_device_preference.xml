@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/device_name" android:key="pref_my_device">
+        <miui.preference.ValuePreference android:key="pref_my_device_info" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other_devices_title" android:key="pref_other_devices">
+        <Preference android:title="@string/other_devices_title" android:key="pref_view_other_devices" />
+    </PreferenceCategory>
+</PreferenceScreen>

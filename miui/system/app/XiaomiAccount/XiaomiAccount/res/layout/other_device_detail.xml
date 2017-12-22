@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/other_device_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/device_info" layout="@layout/device_info" />
+        <com.xiaomi.account.ui.ExpandedListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/device_info" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingBottom="@dimen/device_button_bottom_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@android:id/list" android:layout_alignParentBottom="true" android:paddingStart="@dimen/device_info_margin_h" android:paddingEnd="@dimen/device_info_margin_h">
+            <TextView android:gravity="center" android:id="@id/delete_device_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_device_notice" style="@style/miui.TextAppearance.Medium" />
+            <CheckBox android:id="@id/remove_trust_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/remove_trust_notice" />
+            <Button android:id="@id/delete_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" style="@style/ButtonRemove" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <ImageView android:id="@id/device_icon" android:layout_width="@dimen/device_list_item_icon_width" android:layout_height="@dimen/device_list_item_icon_height" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@style/miui.TextAppearance.PreferenceList" android:id="@id/device_model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/device_icon" />
+        <ImageView android:id="@id/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/passport_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" style="@style/Passport.Divider" />
+</LinearLayout>

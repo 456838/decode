@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Passport.LoginRegLayoutPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/input_email_address_notice" style="@style/Passport.TextSecondPrimary" />
+    <EditText android:layout_gravity="center_vertical" android:id="@id/email_address" android:background="@drawable/passport_group_single_item_normal_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_title_content_margin_v" android:hint="@string/passport_email" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/Passport.EditTextStyle" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" layout="@layout/passport_captcha" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/error_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_buttons_margin_v" style="@style/Passport.ErrorNoticeAppearance" />
+    <Button android:id="@id/btn_next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_reg_content_bottom_margin" android:text="@string/passport_next" style="@style/Passport.BlueButton" />
+</LinearLayout>

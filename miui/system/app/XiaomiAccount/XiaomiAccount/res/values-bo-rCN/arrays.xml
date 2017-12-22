@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_user_gender_name">
+        <item>ཕོ།</item>
+        <item>མོ།</item>
+    </string-array>
+    <string-array name="education">
+        <item>དམའ་འབྲིང་དང་དེའི་མན།</item>
+        <item>འབྲིང་རིམ་ཆེད་ལས་སློབ་གྲྭའབརྒྱུད་ཁོངས་རྩལ་སློབ་གྲྭ།</item>
+        <item>མཐོ་འབྲིང་།</item>
+        <item>མཐོ་རིམ་ཆེད་ལས་སློབ་གྲྭ</item>
+        <item>དངོས་གཞི།</item>
+        <item>རབ་འབྱམས་པ།</item>
+        <item>འབུམ་རམས་པ་དང་དེའི་ཡན།</item>
+    </string-array>
+    <string-array name="income">
+        <item>&lt; 2000</item>
+        <item>2001~4000</item>
+        <item>4001~6000</item>
+        <item>6001~8000</item>
+        <item>8001~12000</item>
+        <item>> 12000</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updated_contacts">
+        <item quantity="other">نۆۋەتتە %s نەپەر كىشىلەر يېڭىلاندى</item>
+    </plurals>
+    <plurals name="view_all_devices">
+        <item quantity="other">ھەممىنى كۆرسىتىش…%dئۈسكۈنە</item>
+    </plurals>
+    <plurals name="view_all_apps">
+        <item quantity="other">ھەممىنى كۆرسىتىش…%dئەپ</item>
+    </plurals>
+    <plurals name="view_all_browsers">
+        <item quantity="other">ھەممىنى كۆرسىتىش…%dتور كۆرگۈچ</item>
+    </plurals>
+</resources>

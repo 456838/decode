@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="pref_account_info">
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_user_details" android:key="pref_user_info" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_security" android:key="pref_account_security" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_mibi_center" android:key="pref_mibi_center" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_mipay_info" android:key="pref_mipay_info" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_xiaomi_service" android:key="pref_xiaomi_services">
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/cloud_service" android:key="pref_cloud_service" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/vip_account_settings" android:key="pref_vip_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

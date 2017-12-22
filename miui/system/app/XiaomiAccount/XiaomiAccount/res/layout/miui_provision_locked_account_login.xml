@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/passport_miui_provision_title_edit_text_margin_v" android:text="@string/passport_login_title" style="@style/Passport.MiuiProvisionActionBarTitleStyle" />
+    <ImageView android:id="@id/top_divider" android:layout_width="fill_parent" android:layout_height="@dimen/passport_divider" android:src="@color/passport_divider_color" style="@style/Passport.MiuiProvisionLoginRegHorizontalMargin" />
+    <include android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Passport.MiuiProvisionLoginRegHorizontalMargin" layout="@layout/passport_miui_provision_password" />
+    <ImageView android:id="@id/bottom_divider" android:layout_width="fill_parent" android:layout_height="@dimen/passport_divider" android:src="@color/passport_divider_color" style="@style/Passport.MiuiProvisionLoginRegHorizontalMargin" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Passport.MiuiProvisionLoginRegHorizontalMargin" layout="@layout/passport_miui_provision_captcha" />
+    <TextView android:id="@id/find_device_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_miui_provision_edit_and_text_margin_v" style="@style/Passport.MiuiProvisionTextViewHasHorizontalMarginStyle" />
+    <TextView android:id="@id/lock_device_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" style="@style/Passport.MiuiProvisionTextViewHasHorizontalMarginStyle" />
+    <CheckBox android:id="@id/license" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" style="@style/Passport.MiuiProvisionLoginRegHorizontalMargin" />
+    <Button android:id="@id/btn_activate_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_miui_provision_license_button_margin" android:text="@string/find_device_activate_account" style="@style/Passport.MiuiProvisionBlueButtonHasHorizontalMarginStyle" />
+    <TextView android:gravity="bottom" android:id="@id/unlock_help" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginBottom="23.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/passport_miui_provision_login_reg_margin_h" android:layout_marginEnd="@dimen/passport_miui_provision_login_reg_margin_h" style="@style/Passport.TextSecondPrimary" />
+</LinearLayout>

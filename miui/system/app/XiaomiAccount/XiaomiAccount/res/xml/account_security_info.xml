@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/account_secure_info_pref_title" android:key="pref_account_user_secure_info">
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_user_phone" android:key="pref_account_userphone" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_user_email" android:key="pref_account_useremail" />
+        <com.xiaomi.account.ui.AccountValuePreference android:key="pref_account_password" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_security_info_pref_title" android:key="pref_account_settings">
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_protection" android:key="pref_account_protection" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_bind_settings" android:key="pref_sns_bind" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/account_bind_devices" android:key="pref_bind_devices" />
+    </PreferenceCategory>
+</PreferenceScreen>

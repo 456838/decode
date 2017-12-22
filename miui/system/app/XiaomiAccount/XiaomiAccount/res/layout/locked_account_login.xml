@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Passport.LoginRegLayoutPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/find_device_status" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Passport.TextSecondPrimary" />
+    <TextView android:textSize="12.0sp" android:textColor="#80000000" android:id="@id/lock_device_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/find_device_status" />
+    <include android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/lock_device_message" layout="@layout/passport_password" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/password_layout" layout="@layout/passport_captcha" />
+    <Button android:id="@id/btn_activate_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/find_device_activate_account" android:layout_below="@id/et_captcha_area" style="@style/Passport.BlueButton" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/locked_account_login_bottom_panel" />
+</RelativeLayout>

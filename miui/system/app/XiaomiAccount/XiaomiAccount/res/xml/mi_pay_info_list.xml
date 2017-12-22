@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/mipay" android:key="pref_category_mi_pay">
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/mipay_bank_card" android:key="pref_bank_card" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/mipay_transit_card" android:key="pref_transit_card" />
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/mipay_balance" android:key="pref_balance" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/mipay_others">
+        <com.xiaomi.account.ui.AccountValuePreference android:title="@string/mipay_identity" android:key="pref_identity" />
+    </PreferenceCategory>
+</PreferenceScreen>

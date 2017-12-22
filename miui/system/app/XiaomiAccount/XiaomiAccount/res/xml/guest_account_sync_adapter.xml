@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter android:accountType="xiaomi.guest.account" android:contentAuthority="xiaomi.guest.account" android:userVisible="false" android:supportsUploading="false" android:allowParallelSyncs="false" android:isAlwaysSyncable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

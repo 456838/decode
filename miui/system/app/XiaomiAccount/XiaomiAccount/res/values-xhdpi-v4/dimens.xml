@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="passport_content_horizontal_margin">15.0dip</dimen>
+    <dimen name="passport_large_text_size">18.0sp</dimen>
+    <dimen name="passport_title_text_size">16.0sp</dimen>
+    <dimen name="passport_normal_text_size">16.5sp</dimen>
+    <dimen name="passport_secondary_text_size">13.0sp</dimen>
+    <dimen name="passport_small_text_size">11.0sp</dimen>
+    <dimen name="passport_button_text_size">15.0sp</dimen>
+    <dimen name="passport_action_bar_default_height">40.0dip</dimen>
+    <dimen name="passport_alphabet_indexer_overlay_text_size">10.0sp</dimen>
+    <dimen name="passport_alphabet_indexer_overlay_padding_top">0.0dip</dimen>
+    <dimen name="passport_alphabet_indexer_overlay_offset">0.0dip</dimen>
+    <dimen name="passport_alphabet_indexer_text_size">10.0dip</dimen>
+    <dimen name="passport_list_preferred_item_height">62.0dip</dimen>
+    <dimen name="passport_list_preferred_item_height_small">45.0dip</dimen>
+    <dimen name="preference_item_padding_inner">13.5dip</dimen>
+    <dimen name="account_large_logo_top_margin">87.0dip</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/push_notify_dialog_title" style="@style/miui.Widget.DialogTitle" />
+    <TextView android:textColor="@android:color/holo_red_light" android:id="@id/push_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" style="@style/miui.Widget.DialogTitle" />
+</LinearLayout>

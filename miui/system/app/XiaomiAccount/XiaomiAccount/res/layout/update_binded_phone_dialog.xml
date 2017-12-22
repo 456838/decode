@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Passport.DialogLayoutPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/replace_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/replace_binded_phone" />
+    <Button android:id="@id/delete_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_buttons_margin_v" android:text="@string/delete_action" />
+    <Button android:id="@id/cancel_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_buttons_margin_v" android:text="@android:string/cancel" />
+</LinearLayout>

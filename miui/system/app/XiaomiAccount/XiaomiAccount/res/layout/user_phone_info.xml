@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/account_settings_title_content_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/account_settings_button_margin_h" android:paddingEnd="@dimen/account_settings_button_margin_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" style="@style/Passport.Divider" />
+    <ListView android:id="@id/binded_phone_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/bind_new_phone" layout="@layout/info_list_item" />
+    <TextView android:textAppearance="@style/miui.TextAppearance.List.Secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/account_bind_phone_notice" />
+</LinearLayout>

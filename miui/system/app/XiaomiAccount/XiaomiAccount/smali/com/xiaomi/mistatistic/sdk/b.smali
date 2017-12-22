@@ -1,0 +1,557 @@
+.class public abstract Lcom/xiaomi/mistatistic/sdk/b;
+.super Ljava/lang/Object;
+.source ""
+
+
+# static fields
+.field private static aiP:Z
+
+.field private static aiQ:Z
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    sput-boolean v0, Lcom/xiaomi/mistatistic/sdk/b;->aiP:Z
+
+    sput-boolean v0, Lcom/xiaomi/mistatistic/sdk/b;->aiQ:Z
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static final asW(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-static {p0, p1, p2, p3, v0}, Lcom/xiaomi/mistatistic/sdk/b;->asX(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+
+    return-void
+.end method
+
+.method public static final asX(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+    .locals 6
+
+    const/4 v5, 0x1
+
+    const/4 v4, 0x0
+
+    const-string/jumbo v0, "MI_STAT"
+
+    const-string/jumbo v1, "initialize %s, %s, %s, %s"
+
+    const/4 v2, 0x4
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+
+    move-result-object v3
+
+    aput-object v3, v2, v4
+
+    aput-object p1, v2, v5
+
+    const/4 v3, 0x2
+
+    aput-object p3, v2, v3
+
+    const/4 v3, 0x3
+
+    invoke-static {p4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v4
+
+    aput-object v4, v2, v3
+
+    invoke-static {v1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string/jumbo v1, "appID or appKey is empty."
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    move-object p0, v0
+
+    :cond_2
+    invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    :goto_0
+    invoke-static {p0, p1, p2, p3}, Lcom/xiaomi/mistatistic/sdk/a/v;->aqS(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/D;->a()V
+
+    new-instance v0, Lcom/xiaomi/mistatistic/sdk/a/X;
+
+    invoke-direct {v0}, Lcom/xiaomi/mistatistic/sdk/a/X;-><init>()V
+
+    invoke-virtual {v0}, Lcom/xiaomi/mistatistic/sdk/a/X;->a()Ljava/lang/String;
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/A;->a()Lcom/xiaomi/mistatistic/sdk/a/A;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/xiaomi/mistatistic/sdk/a/A;->b()V
+
+    sput-boolean v5, Lcom/xiaomi/mistatistic/sdk/b;->aiP:Z
+
+    if-nez p4, :cond_4
+
+    :goto_1
+    return-void
+
+    :cond_3
+    const-string/jumbo p3, "mistats_default"
+
+    goto :goto_0
+
+    :cond_4
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/c;->atk()Z
+
+    goto :goto_1
+.end method
+
+.method public static final asY(IJ)V
+    .locals 5
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x0
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/b;->atg()V
+
+    const/4 v2, 0x4
+
+    if-eq p0, v2, :cond_1
+
+    :cond_0
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/A;->a()Lcom/xiaomi/mistatistic/sdk/a/A;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0, p1, p2}, Lcom/xiaomi/mistatistic/sdk/a/A;->aqT(IJ)V
+
+    return-void
+
+    :cond_1
+    const-wide/32 v2, 0xea60
+
+    cmp-long v2, p1, v2
+
+    if-gez v2, :cond_3
+
+    move v2, v0
+
+    :goto_0
+    if-nez v2, :cond_2
+
+    const-wide/32 v2, 0x5265c00
+
+    cmp-long v2, p1, v2
+
+    if-gtz v2, :cond_4
+
+    :goto_1
+    if-nez v0, :cond_0
+
+    :cond_2
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string/jumbo v1, "interval should be set between 1 minutes and 1 day"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_3
+    move v2, v1
+
+    goto :goto_0
+
+    :cond_4
+    move v0, v1
+
+    goto :goto_1
+.end method
+
+.method private static final asZ(Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const-string/jumbo v0, ","
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    :goto_0
+    return-object p0
+
+    :cond_0
+    const-string/jumbo v0, ""
+
+    return-object v0
+
+    :cond_1
+    const-string/jumbo v0, ","
+
+    const-string/jumbo v1, ""
+
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p0
+
+    goto :goto_0
+.end method
+
+.method public static final ata(Landroid/app/Activity;Ljava/lang/String;)V
+    .locals 3
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/b;->atg()V
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/e;->a()Lcom/xiaomi/mistatistic/sdk/a/e;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/xiaomi/mistatistic/sdk/a/a/e;
+
+    invoke-direct {v1}, Lcom/xiaomi/mistatistic/sdk/a/a/e;-><init>()V
+
+    invoke-virtual {v0, v1}, Lcom/xiaomi/mistatistic/sdk/a/e;->aqw(Lcom/xiaomi/mistatistic/sdk/a/L;)V
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/H;->a()Lcom/xiaomi/mistatistic/sdk/a/H;
+
+    move-result-object v0
+
+    invoke-static {p1}, Lcom/xiaomi/mistatistic/sdk/b;->asZ(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string/jumbo v2, ""
+
+    invoke-virtual {v0, p0, v1, v2}, Lcom/xiaomi/mistatistic/sdk/a/H;->arm(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/i;->a()Lcom/xiaomi/mistatistic/sdk/a/i;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/xiaomi/mistatistic/sdk/a/i;->b()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    :goto_0
+    return-void
+
+    :cond_0
+    invoke-virtual {v0, p0}, Lcom/xiaomi/mistatistic/sdk/a/i;->aqA(Landroid/app/Activity;)V
+
+    goto :goto_0
+.end method
+
+.method public static final atb()V
+    .locals 2
+
+    const-string/jumbo v0, ""
+
+    const/4 v1, 0x0
+
+    invoke-static {v1, v0}, Lcom/xiaomi/mistatistic/sdk/b;->atc(Landroid/content/Context;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static final atc(Landroid/content/Context;Ljava/lang/String;)V
+    .locals 2
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/b;->atg()V
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/H;->a()Lcom/xiaomi/mistatistic/sdk/a/H;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0, p1}, Lcom/xiaomi/mistatistic/sdk/a/H;->aro(Landroid/content/Context;Ljava/lang/String;)V
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/i;->a()Lcom/xiaomi/mistatistic/sdk/a/i;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/xiaomi/mistatistic/sdk/a/i;->e()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    :goto_0
+    return-void
+
+    :cond_0
+    invoke-virtual {v0}, Lcom/xiaomi/mistatistic/sdk/a/i;->f()V
+
+    goto :goto_0
+.end method
+
+.method public static final atd(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/b;->atg()V
+
+    invoke-static {p0, p1}, Lcom/xiaomi/mistatistic/sdk/b;->ath(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    :goto_0
+    new-instance v0, Lcom/xiaomi/mistatistic/sdk/data/e;
+
+    invoke-direct {v0, p0, p1, p2}, Lcom/xiaomi/mistatistic/sdk/data/e;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
+
+    invoke-static {v0}, Lcom/xiaomi/mistatistic/sdk/a/P;->arL(Lcom/xiaomi/mistatistic/sdk/data/f;)V
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/a/e;->c()V
+
+    return-void
+
+    :cond_0
+    const-string/jumbo p0, "default_category"
+
+    goto :goto_0
+.end method
+
+.method public static final ate(Ljava/lang/String;Ljava/lang/String;J)V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {p0, p1, p2, p3, v0}, Lcom/xiaomi/mistatistic/sdk/b;->atf(Ljava/lang/String;Ljava/lang/String;JLjava/util/Map;)V
+
+    return-void
+.end method
+
+.method public static final atf(Ljava/lang/String;Ljava/lang/String;JLjava/util/Map;)V
+    .locals 8
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "J",
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/b;->atg()V
+
+    invoke-static {p0, p1}, Lcom/xiaomi/mistatistic/sdk/b;->ath(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    move-object v2, p0
+
+    :goto_0
+    new-instance v1, Lcom/xiaomi/mistatistic/sdk/data/h;
+
+    move-object v3, p1
+
+    move-wide v4, p2
+
+    move-object v6, p4
+
+    invoke-direct/range {v1 .. v6}, Lcom/xiaomi/mistatistic/sdk/data/h;-><init>(Ljava/lang/String;Ljava/lang/String;JLjava/util/Map;)V
+
+    invoke-static {v1}, Lcom/xiaomi/mistatistic/sdk/a/P;->arL(Lcom/xiaomi/mistatistic/sdk/data/f;)V
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/a/a/e;->c()V
+
+    return-void
+
+    :cond_0
+    const-string/jumbo v2, "default_category"
+
+    goto :goto_0
+.end method
+
+.method private static atg()V
+    .locals 2
+
+    sget-boolean v0, Lcom/xiaomi/mistatistic/sdk/b;->aiP:Z
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string/jumbo v1, "not initialized, do you forget to call initialize when application started?"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method private static ath(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 2
+
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    :cond_0
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    :cond_1
+    return-void
+
+    :cond_2
+    const-string/jumbo v0, "mistat_"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string/jumbo v1, "category cannot start with mistat_"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_3
+    const-string/jumbo v0, "mistat_"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string/jumbo v1, "key cannot start with mistat_"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public static ati()Z
+    .locals 2
+
+    const/4 v0, 0x1
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/i;->d()I
+
+    move-result v1
+
+    if-ne v1, v0, :cond_0
+
+    const/4 v0, 0x0
+
+    :cond_0
+    return v0
+.end method
+
+.method public static atj()Z
+    .locals 2
+
+    invoke-static {}, Lcom/xiaomi/mistatistic/sdk/i;->d()I
+
+    move-result v0
+
+    const/4 v1, 0x2
+
+    if-eq v0, v1, :cond_0
+
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
+.end method
