@@ -114,13 +114,16 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->lock(Landroid/os/Bundle;)V
+    #invoke-virtual {v3, v4}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->lock(Landroid/os/Bundle;)V
+
+    invoke-virtual {v3}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->unlock()V
 
     .line 60
     :cond_0
     :goto_0
-    invoke-virtual {p0, p3}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardControlReceiver;->stopSelf(I)V
+    #invoke-virtual {p0, p3}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardControlReceiver;->stopSelf(I)V
 
+    invoke-virtual {v3}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->unlock()V
     .line 62
     const/4 v3, 0x3
 
@@ -180,8 +183,8 @@
 
     move-result-object v3
 
-    invoke-virtual {v3, v0}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->setBackoff(Z)V
-
+    #invoke-virtual {v3, v0}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->setBackoff(Z)V
+    invoke-virtual {v3}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->unlock()V
     goto :goto_0
 
     .line 50
@@ -224,7 +227,8 @@
 
     move-result-object v3
 
-    invoke-virtual {v3, v1, v2}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->notify(ILandroid/os/Bundle;)V
+    #invoke-virtual {v3, v1, v2}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->notify(ILandroid/os/Bundle;)V
 
+    invoke-virtual {v3}, Lcom/xiaomi/finddevice/v2/ui/FindDeviceKeyguardManager;->unlock()V
     goto :goto_0
 .end method
